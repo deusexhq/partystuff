@@ -1,0 +1,36 @@
+class CuteBot extends DXRobot;
+
+defaultproperties
+{
+     SpeechTargetAcquired=Sound'DeusExSounds.Robot.SecurityBot3TargetAcquired'
+     SpeechTargetLost=Sound'DeusExSounds.Robot.SecurityBot3TargetLost'
+     SpeechOutOfAmmo=Sound'DeusExSounds.Robot.SecurityBot3OutOfAmmo'
+     SpeechCriticalDamage=Sound'DeusExSounds.Robot.SecurityBot3CriticalDamage'
+     SpeechScanning=Sound'DeusExSounds.Robot.SecurityBot3Scanning'
+     EMPHitPoints=40
+     WalkingSpeed=1.000000
+     bEmitDistress=True
+     InitialInventory(0)=(Inventory=Class'WeaponRobotMachinegunF')
+     InitialInventory(1)=(Inventory=Class'DeusEx.Ammo762mm',Count=50)
+     GroundSpeed=65.000000
+     WaterSpeed=50.000000
+     AirSpeed=144.000000
+     AccelRate=500.000000
+     Health=150
+     UnderWaterTime=20.000000
+     DrawType=DT_Mesh
+     Skin=Texture'CuteBot3'
+     Mesh=LodMesh'DeusExCharacters.SecurityBot3'
+     DrawScale=0.500000
+     Fatness=172
+     SoundRadius=16
+     SoundVolume=128
+     AmbientSound=Sound'DeusExSounds.Robot.SecurityBot3Move'
+     CollisionRadius=14.000000
+     CollisionHeight=14.000000
+     Mass=500.000000
+     Buoyancy=100.000000
+     BindName="CuteBot"
+     FamiliarName="CuteBot"
+     UnfamiliarName="CuteBot"
+}
