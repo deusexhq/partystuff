@@ -78,8 +78,8 @@ defaultproperties
     MaxSpeed=1000.00
     SpawnSound=None
     ImpactSound=None
-    DrawType=1
-    Style=3
+    DrawType=dt_sprite
+    Style=sty_modulated
     Texture=Texture'PGAssets.Skins.SkyBlueRay'
     Mesh=None
     DrawScale=5.00
