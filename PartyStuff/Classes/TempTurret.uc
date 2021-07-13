@@ -602,6 +602,7 @@ function PostBeginPlay()
 defaultproperties
 {
     TurretHealth=100
+    PTurretTeam="DEFAULT"
     titleString="AutoTurret"
     bTrackPlayersOnly=True
     bActive=True
@@ -620,7 +621,6 @@ defaultproperties
     bHighlight=False
     ItemName="Turret Base"
     bPushable=False
-    Physics=0
     Mesh=LodMesh'DeusExDeco.AutoTurretBase'
     SoundRadius=48
     SoundVolume=192
@@ -630,5 +630,4 @@ defaultproperties
     Mass=50.00
     Buoyancy=10.00
     bVisionImportant=True
-	PTurretTeam="DEFAULT"
 }

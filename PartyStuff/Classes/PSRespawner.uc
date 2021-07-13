@@ -65,7 +65,7 @@ function PostBeginPlay()
 		DXScriptedPawn(CurrentPawn).sBossArmourBack = sBossArmourBack;
 		DXScriptedPawn(CurrentPawn).sMedkitUsed = sMedkitUsed;
 	}
-	CurrentPawn.InitializePawn();
+	//CurrentPawn.InitializePawn();
 	Log(CurrentPawn$" spawned. ("$bForceOrders$respawnOrders$") ("$bForceState$respawnState$")");
 	bRespawning=False;
 }
@@ -149,7 +149,7 @@ function Timer()
 			DXScriptedPawn(CurrentPawn).sBossArmourBack = sBossArmourBack;
 			DXScriptedPawn(CurrentPawn).sMedkitUsed = sMedkitUsed;
 	}
-	CurrentPawn.InitializePawn();
+	//CurrentPawn.InitializePawn();
 	Log(CurrentPawn$" spawned. ("$bForceOrders$respawnOrders$") ("$bForceState$respawnState$")");
 	bRespawning=False;
 }

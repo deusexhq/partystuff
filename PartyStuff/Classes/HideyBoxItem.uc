@@ -1,7 +1,7 @@
 //=============================================================================
 // It's a tarp.
 //=============================================================================
-class TurretItem extends ChargedPickup;
+class HideyBoxItem extends ChargedPickup;
 
 // ----------------------------------------------------------------------
 // ChargedPickupBegin()
@@ -9,11 +9,10 @@ class TurretItem extends ChargedPickup;
 
 function ChargedPickupBegin(DeusExPlayer Player)
 {
-   local TempTurret CD;
+  // local HideyBox CD;
    local Vector loc,X,Y,Z;
    
-   CD = Spawn(Class'TempTurret',,,Player.Location + (Player.CollisionRadius+Default.CollisionRadius+30) * Vector(Player.ViewRotation) + vect(0,0,1) * 30 );
-   CD.Master  = Player;
+   Spawn(Class'HideyBox',,,Player.Location + (Player.CollisionRadius+Default.CollisionRadius+30) * Vector(Player.ViewRotation) + vect(0,0,1) * 30 );
 
 	Super.ChargedPickupBegin(Player);
 	
@@ -49,12 +48,12 @@ defaultproperties
     ActivateSound=Sound'DeusExSounds.Augmentation.CloakUp'
     DeActivateSound=None
     ChargeRemainingLabel="Box readiness:"
-    ItemName="Portable Turret"
+    ItemName="Portable Hideybox"
     PlayerViewOffset=(X=20.00,Y=0.00,Z=-12.00),
-    PlayerViewMesh=LodMesh'DeusExDeco.BoxSmall'
+    PlayerViewMesh=LodMesh'DeusExDeco.BoxLarge'
     PlayerViewScale=0.20
-    PickupViewMesh=LodMesh'DeusExDeco.BoxSmall'
-    ThirdPersonMesh=LodMesh'DeusExDeco.BoxSmall'
+    PickupViewMesh=LodMesh'DeusExDeco.BoxLarge'
+    ThirdPersonMesh=LodMesh'DeusExDeco.BoxLarge'
     ThirdPersonScale=0.25
     Charge=8
     LandSound=Sound'DeusExSounds.Generic.DropLargeWeapon'
@@ -64,9 +63,9 @@ defaultproperties
     largeIconHeight=49
     Description="s"
     beltDescription="BOX"
-    Mesh=LodMesh'DeusExDeco.BoxSmall'
-    CollisionRadius=13.00
-    CollisionHeight=5.18
+    Mesh=LodMesh'DeusExDeco.BoxLarge'
+    CollisionRadius=45.00
+    CollisionHeight=32.00
     Mass=10.00
     Buoyancy=100.00
 }
