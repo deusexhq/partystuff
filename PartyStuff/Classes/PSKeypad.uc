@@ -64,11 +64,11 @@ function Frob(actor frobber, inventory frobwith)
 
 defaultproperties
 {
+     bInvincible=True
      ItemName="Password Entry Device"
- Mesh=LodMesh'DeusExDeco.TAD'
+     bPushable=False
+     Physics=PHYS_None
+     Mesh=LodMesh'DeusExDeco.TAD'
      CollisionRadius=7.400000
      CollisionHeight=2.130000
-     Physics=PHYS_None
-     bPushable=False
-     bInvincible=True
 }

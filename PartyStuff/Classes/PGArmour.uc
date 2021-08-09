@@ -63,10 +63,11 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 {
    return ( (BeltSpot >= 1) && (BeltSpot <=9) );
 }
+
 defaultproperties
 {
-	Dur=5
-	Def=5
+     Dur=5
+     Def=5
      ItemName="Basic Armour"
      ItemArticle="some"
      PlayerViewOffset=(X=30.000000,Z=-12.000000)

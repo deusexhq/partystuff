@@ -41,16 +41,15 @@ defaultproperties
      AccurateRange=80
      BaseAccuracy=1.000000
      bHasMuzzleFlash=False
-     bHandToHand=False
      bFallbackWeapon=True
      mpHitDamage=20
      mpBaseAccuracy=1.000000
      mpAccurateRange=96
      mpMaxRange=96
      AmmoName=Class'DeusEx.AmmoNone'
-     ProjectileClass=Class'MomsKnife'
      ReloadCount=0
      FireOffset=(X=-5.000000,Y=8.000000,Z=14.000000)
+     ProjectileClass=Class'PartyStuff.MomsKnife'
      shakemag=20.000000
      FireSound=Sound'DeusExSounds.Weapons.CombatKnifeFire'
      SelectSound=Sound'DeusExSounds.Weapons.CombatKnifeSelect'
@@ -59,7 +58,7 @@ defaultproperties
      Misc3Sound=Sound'DeusExSounds.Weapons.CombatKnifeHitSoft'
      InventoryGroup=11
      ItemName="Knife"
-	 ItemArticle="Mom's"
+     ItemArticle="Mom's"
      PlayerViewOffset=(X=5.000000,Y=-8.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.CombatKnife'
      PickupViewMesh=LodMesh'DeusExItems.CombatKnifePickup'
@@ -74,4 +73,3 @@ defaultproperties
      CollisionRadius=12.650000
      CollisionHeight=0.800000
 }
-

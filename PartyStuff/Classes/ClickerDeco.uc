@@ -159,11 +159,35 @@ function DebugLog(string str)
 
 defaultproperties
 {
+     cAccounts(0)=(LogIP="31.21.144.214",Clicks=17,cLevel=2,cEXP=17,lastName="Prototype",LastLoginDay=1)
+     cAccounts(1)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(2)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(3)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(4)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(5)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(6)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(7)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(8)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(9)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(10)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(11)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(12)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(13)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(14)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(15)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(16)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(17)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(18)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(19)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     cAccounts(20)=(LogIP="192.168.0.17",cLevel=1,lastName="Kaiser")
+     Days=1
+     CurDay=9
+     TotalClicks=17
      bInvincible=True
      ItemName="The Clicker"
      bPushable=False
+     Physics=PHYS_None
      DrawType=DT_Sprite
-	 Physics=PHYS_None
      Style=STY_Translucent
      Texture=Texture'DeusExDeco.Skins.AlarmLightTex6'
      Skin=Texture'DeusExDeco.Skins.AlarmLightTex6'

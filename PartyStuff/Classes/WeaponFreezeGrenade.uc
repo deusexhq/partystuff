@@ -49,15 +49,14 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-    AmmoName=Class'AmmoFreezeGrenade'
-    PickupAmmoCount=2
-    ProjectileClass=Class'FreezeGrenade'
-    InventoryGroup=118
-    ItemName="Icer Grenade"
-    ItemArticle="an"
-    beltDescription="Freeze"
-    MultiSkins(4)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(5)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(6)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(7)=FireTexture'Effects.UserInterface.WhiteStatic'
+     AmmoName=Class'PartyStuff.AmmoFreezeGrenade'
+     PickupAmmoCount=2
+     ProjectileClass=Class'PartyStuff.FreezeGrenade'
+     InventoryGroup=118
+     ItemName="Icer Grenade"
+     beltDescription="Freeze"
+     MultiSkins(4)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(5)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(6)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(7)=FireTexture'Effects.UserInterface.WhiteStatic'
 }

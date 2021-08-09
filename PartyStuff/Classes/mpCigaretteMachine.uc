@@ -59,7 +59,7 @@ function Frob(actor Frobber, Inventory frobWith)
 			player.ClientMessage("Needs"@Price@"credits.");
 	}
 }
- 
+
 defaultproperties
 {
      ItemName="Cigarette Machine"

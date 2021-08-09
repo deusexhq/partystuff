@@ -4,6 +4,5 @@ var() class<DXScriptedPawn> CopClass;
 
 defaultproperties
 {
-bHidden=True
-CopClass=class'TCBots.eCTGrunt'
+     bHidden=True
 }

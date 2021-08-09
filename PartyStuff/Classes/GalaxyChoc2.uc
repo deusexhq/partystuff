@@ -2,26 +2,23 @@ class GalaxyChoc2 extends FoodMMRPG;
 
 defaultproperties
 {
-     rechargeAmount=25
      ItemName="ChocoCrunch |p2[Strawberry]|p1 Bar"
-     PlayerViewOffset=(X=30.000000,Z=-12.000000)
      PlayerViewMesh=LodMesh'DeusExItems.Candybar'
-     PlayerViewScale=1.1000000
+     PlayerViewScale=1.100000
      PickupViewMesh=LodMesh'DeusExItems.Candybar'
-     PickupViewScale=1.1000000
+     PickupViewScale=1.100000
      ThirdPersonMesh=LodMesh'DeusExItems.Candybar'
-     ThirdPersonScale=1.1000000
-     Icon=Texture'BeltIconChoc2'
-     largeIcon=Texture'BeltIconChoc2'
+     ThirdPersonScale=1.100000
+     Icon=Texture'PGAssets.Skins.BeltIconChoc2'
+     largeIcon=Texture'PGAssets.Skins.BeltIconChoc2'
      largeIconWidth=46
      largeIconHeight=36
      beltDescription="|p2CH STRWBRY"
+     Skin=Texture'PGAssets.Skins.GalaxyTex2'
      Mesh=LodMesh'DeusExItems.Candybar'
+     DrawScale=1.100000
+     MultiSkins(0)=Texture'PGAssets.Skins.GalaxyTex2'
      CollisionRadius=6.250000
      CollisionHeight=0.670000
-     DrawScale=1.1000000
-     MultiSkins(0)=Texture'GalaxyTex2'
-     Skin=Texture'GalaxyTex2'
      Mass=3.000000
-     Buoyancy=4.000000
 }

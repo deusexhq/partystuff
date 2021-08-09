@@ -12,6 +12,6 @@ function Timer()
 
 defaultproperties
 {
-    Cooldown=255
-    bHidden=True
+     Cooldown=255
+     bHidden=True
 }

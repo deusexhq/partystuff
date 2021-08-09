@@ -97,17 +97,16 @@ function RestockWeapon(DeusExPlayer Player, DeusExWeapon WeaponToStock)
 
 defaultproperties
 {
-    AmmoReceived="Ammo restocked"
-    HitPoints=4000
-    bFlammable=False
-    ItemName="Ammo Crate"
-    bPushable=False
-    bBlockSight=True
-    Mesh=LodMesh'DeusExItems.GEPAmmo'
-    bAlwaysRelevant=True
-    MultiSkins=Texture'Skins.acrate'
-    CollisionRadius=18.00
-    CollisionHeight=7.80
-    Mass=3000.00
-    Buoyancy=40.00
+     AmmoReceived="Ammo restocked"
+     HitPoints=4000
+     bFlammable=False
+     ItemName="Ammo Crate"
+     bPushable=False
+     bBlockSight=True
+     Mesh=LodMesh'DeusExItems.GEPAmmo'
+     bAlwaysRelevant=True
+     CollisionRadius=18.000000
+     CollisionHeight=7.800000
+     Mass=3000.000000
+     Buoyancy=40.000000
 }

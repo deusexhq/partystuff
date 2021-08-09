@@ -77,34 +77,33 @@ function DoGuidance()
 	velocity = Vector(Rotation) * Speed;
 }
 
-
 defaultproperties
 {
-    proxRadius=800.00
-    certainity=1.00
-    drunkness=0.10
-    sharpness=1.00
-    tickTime=0.10
-    minMass=40.00
-    bExplodes=True
-    bBlood=True
-    bDebris=True
-    blastRadius=64.00
-    DamageType=exploded
-    AccurateRange=14400
-    maxRange=24000
-    ItemName="Drone Rocket"
-    ItemArticle="a"
-    speed=700.00
-    MaxSpeed=1500.00
-    Damage=50.00
-    MomentumTransfer=10000
-    SpawnSound=Sound'DeusExSounds.Weapons.GEPGunFire'
-    ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion1'
-    Mesh=LodMesh'DeusExItems.Rocket'
-    DrawScale=0.10
-    SoundRadius=16
-    SoundVolume=196
-    AmbientSound=Sound'DeusExSounds.Special.RocketLoop'
-    RotationRate=(Pitch=99999,Yaw=65536,Roll=0),
+     proxRadius=800.000000
+     certainity=1.000000
+     drunkness=0.100000
+     sharpness=1.000000
+     tickTime=0.100000
+     minMass=40.000000
+     bExplodes=True
+     bBlood=True
+     bDebris=True
+     blastRadius=64.000000
+     DamageType=exploded
+     AccurateRange=14400
+     maxRange=24000
+     ItemName="Drone Rocket"
+     ItemArticle="a"
+     speed=700.000000
+     MaxSpeed=1500.000000
+     Damage=50.000000
+     MomentumTransfer=10000
+     SpawnSound=Sound'DeusExSounds.Weapons.GEPGunFire'
+     ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion1'
+     Mesh=LodMesh'DeusExItems.Rocket'
+     DrawScale=0.100000
+     SoundRadius=16
+     SoundVolume=196
+     AmbientSound=Sound'DeusExSounds.Special.RocketLoop'
+     RotationRate=(Pitch=99999)
 }

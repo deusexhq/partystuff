@@ -67,8 +67,8 @@ function Boom()
 
 defaultproperties
 {
+     bInvincible=True
      FragType=Class'DeusEx.WoodFragment'
-	 bInvincible=True
      ItemName="Capture Flag"
      Mesh=LodMesh'DeusExDeco.FlagPole'
      CollisionRadius=17.000000

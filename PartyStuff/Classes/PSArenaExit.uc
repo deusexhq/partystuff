@@ -5,5 +5,5 @@ class PSArenaExit extends Actor;
 
 defaultproperties
 {
-bHidden=True
+     bHidden=True
 }

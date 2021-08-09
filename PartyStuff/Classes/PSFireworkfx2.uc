@@ -21,10 +21,10 @@ function PreBeginPlay()
 
 defaultproperties
 {
-	blastRadius=40.000000
+     bExplodes=True
+     blastRadius=40.000000
      AccurateRange=300
      maxRange=450
-     bExplodes=True
      bIgnoresNanoDefense=True
      speed=600.000000
      MaxSpeed=800.000000

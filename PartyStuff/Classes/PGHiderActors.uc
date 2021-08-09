@@ -5,5 +5,4 @@ var string SavedName;
 
 defaultproperties
 {
-     bHidden=True
 }

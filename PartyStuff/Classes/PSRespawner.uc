@@ -156,7 +156,6 @@ function Timer()
 
 defaultproperties
 {
-	respawnDelay=250
-	bHidden=True
-	Respawn=class'eTerrorist'
+     respawnDelay=250.000000
+     bHidden=True
 }

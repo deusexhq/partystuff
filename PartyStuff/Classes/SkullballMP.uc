@@ -141,9 +141,9 @@ defaultproperties
      LifeSpan=0.000000
      bDirectional=False
      Mesh=LodMesh'DeusExDeco.BoneSkull'
+     DrawScale=1.500000
      CollisionRadius=15.000000
      CollisionHeight=15.000000
-     Drawscale=1.5
      bBlockActors=True
      bBlockPlayers=True
      Mass=8.000000

@@ -26,5 +26,4 @@ function SilentAdd(class<inventory> addClass, DeusExPlayer addTarget)
 
 defaultproperties
 {
-bHidden=True
 }

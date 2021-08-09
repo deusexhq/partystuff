@@ -5,5 +5,5 @@ class PSArenaSpawner extends PGSpawnPoints;
 
 defaultproperties
 {
-bHidden=True
+     bHidden=True
 }

@@ -88,13 +88,13 @@ local int i;
 
 defaultproperties
 {
-    fuseLength=3.00
-    proxRadius=128.00
-    spawnWeaponClass=Class'WeaponFreezeGrenade'
-    spawnAmmoClass=Class'AmmoFreezeGrenade'
-    ItemName="Icer Grenade"
-	ItemArticle="an"
-    speed=1500.00
-    ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'
-    Mesh=LodMesh'DeusExItems.EMPGrenadePickup'
+     fuseLength=3.000000
+     proxRadius=128.000000
+     spawnWeaponClass=Class'PartyStuff.WeaponFreezeGrenade'
+     spawnAmmoClass=Class'PartyStuff.AmmoFreezeGrenade'
+     ItemName="Icer Grenade"
+     ItemArticle="an"
+     speed=1500.000000
+     ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'
+     Mesh=LodMesh'DeusExItems.EMPGrenadePickup'
 }

@@ -76,21 +76,21 @@ function ExplodeLum()
 defaultproperties
 {
      bInvincible=True
+     bHighlight=False
      ItemName="Lumination Point"
      bPushable=False
-     bHighlight=False
-     LightBrightness=124
-     physics=PHYS_NONE
-     Lighttype=LT_Steady
-     LightRadius=40
-     Ambientglow=255
-     LightSaturation=255
+     Physics=PHYS_None
      DrawType=DT_Sprite
      Style=STY_Translucent
      Texture=Texture'DeusExDeco.Skins.AlarmLightTex6'
      Skin=Texture'DeusExDeco.Skins.AlarmLightTex6'
      DrawScale=1.500000
+     AmbientGlow=255
      CollisionRadius=45.200001
      CollisionHeight=32.000000
      bBlockPlayers=False
+     LightType=LT_Steady
+     LightBrightness=124
+     LightSaturation=255
+     LightRadius=40
 }

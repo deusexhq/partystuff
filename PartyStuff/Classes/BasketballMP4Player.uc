@@ -14,13 +14,13 @@ event BaseChange()
 
 defaultproperties
 {
-    bInvincible=True
-    ItemName="Basketball"
-    Mesh=LodMesh'FLBasketball'
-    DrawScale=0.71
-    CollisionRadius=10.00
-    CollisionHeight=10.00
-    bBounce=True
-    Mass=8.00
-    Buoyancy=10.00
+     bInvincible=True
+     ItemName="Basketball"
+     Mesh=LodMesh'PGAssets.FLBasketball'
+     DrawScale=0.710000
+     CollisionRadius=10.000000
+     CollisionHeight=10.000000
+     bBounce=True
+     Mass=8.000000
+     Buoyancy=10.000000
 }

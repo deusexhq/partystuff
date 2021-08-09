@@ -28,5 +28,4 @@ function ModifyPlayer(Pawn Other)
 
 defaultproperties
 {
-bHidden=True
 }

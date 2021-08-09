@@ -45,5 +45,5 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-	ItemName="Sound Switch"
+     ItemName="Sound Switch"
 }

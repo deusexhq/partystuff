@@ -105,7 +105,7 @@ defaultproperties
      MultiSkins(1)=FireTexture'Effects.Fire.OneFlame_G'
      MultiSkins(2)=FireTexture'Effects.Fire.OneFlame_G'
      MultiSkins(4)=FireTexture'Effects.Smoke.SmokePuff1'
-	  MultiSkins(5)=FireTexture'Effects.Fire.OneFlame_G'
+     MultiSkins(5)=FireTexture'Effects.Fire.OneFlame_G'
      MultiSkins(6)=FireTexture'Effects.Fire.OneFlame_G'
      LightHue=128
 }

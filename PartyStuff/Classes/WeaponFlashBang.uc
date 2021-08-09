@@ -49,15 +49,15 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-    AmmoName=Class'AmmoFlashBang'
-    PickupAmmoCount=2
-    ProjectileClass=Class'FlashBang'
-    InventoryGroup=118
-    ItemName="Flash Bang Grenade"
-    ItemArticle="a"
-    beltDescription="Flash"
-    MultiSkins(4)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(5)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(6)=FireTexture'Effects.UserInterface.WhiteStatic'
-    MultiSkins(7)=FireTexture'Effects.UserInterface.WhiteStatic'
+     AmmoName=Class'PartyStuff.AmmoFlashBang'
+     PickupAmmoCount=2
+     ProjectileClass=Class'PartyStuff.FlashBang'
+     InventoryGroup=118
+     ItemName="Flash Bang Grenade"
+     ItemArticle="a"
+     beltDescription="Flash"
+     MultiSkins(4)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(5)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(6)=FireTexture'Effects.UserInterface.WhiteStatic'
+     MultiSkins(7)=FireTexture'Effects.UserInterface.WhiteStatic'
 }

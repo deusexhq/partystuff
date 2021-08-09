@@ -13,9 +13,9 @@ function Bump(actor Other)
 
 defaultproperties
 {
-	bInvincible=True
      bGenerateTrash=True
      HitPoints=10
+     bInvincible=True
      FragType=Class'DeusEx.PaperFragment'
      bGenerateFlies=True
      ItemName="Trashbag that can eat anything"

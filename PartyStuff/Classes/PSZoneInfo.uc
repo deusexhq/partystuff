@@ -313,7 +313,7 @@ simulated function LinkToSkybox()
 
 defaultproperties
 {
-	rTimer=15
-	EntryMsg="You are entering restricted area. Please leave, or you will be terminated in 15 seconds."
-	ExitMsg="Have a nice day"
+     EntryMsg="You are entering restricted area. Please leave, or you will be terminated in 15 seconds."
+     ExitMsg="Have a nice day"
+     rTimer=15
 }

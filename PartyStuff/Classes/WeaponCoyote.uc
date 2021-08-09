@@ -58,7 +58,7 @@ defaultproperties
      SelectSound=Sound'DeusExSounds.Weapons.SawedOffShotgunSelect'
      InventoryGroup=6
      ItemName="Coyote M17F"
-	 ItemArticle="the"
+     ItemArticle="the"
      PlayerViewOffset=(X=11.000000,Y=-4.000000,Z=-13.000000)
      PlayerViewMesh=LodMesh'DeusExItems.Shotgun'
      PickupViewMesh=LodMesh'DeusExItems.ShotgunPickup'

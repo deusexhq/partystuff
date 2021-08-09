@@ -28,8 +28,8 @@ function BeginPlay()
 
 defaultproperties
 {
+     ItemName="Fire Hydrant"
      Mesh=LodMesh'DeusExDeco.FirePlug'
-	 itemName="Fire Hydrant"
      CollisionRadius=8.000000
      CollisionHeight=16.500000
      Mass=50.000000

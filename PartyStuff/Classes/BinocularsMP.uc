@@ -66,23 +66,23 @@ simulated function RefreshScopeDisplay(DeusExPlayer Player, bool bInstant, bool 
 
 defaultproperties
 {
-    bActivatable=True
-    ItemName="Binoculars"
-    ItemArticle="some"
-    PlayerViewOffset=(X=18.00,Y=0.00,Z=-6.00),
-    PlayerViewMesh=LodMesh'DeusExItems.Binoculars'
-    PickupViewMesh=LodMesh'DeusExItems.Binoculars'
-    ThirdPersonMesh=LodMesh'DeusExItems.Binoculars'
-    LandSound=Sound'DeusExSounds.Generic.PaperHit2'
-    Icon=Texture'DeusExUI.Icons.BeltIconBinoculars'
-    largeIcon=Texture'DeusExUI.Icons.LargeIconBinoculars'
-    largeIconWidth=49
-    largeIconHeight=34
-    Description="A pair of military binoculars."
-    beltDescription="BINOCS"
-    Mesh=LodMesh'DeusExItems.Binoculars'
-    CollisionRadius=7.00
-    CollisionHeight=2.06
-    Mass=5.00
-    Buoyancy=6.00
+     bActivatable=True
+     ItemName="Binoculars"
+     ItemArticle="some"
+     PlayerViewOffset=(X=18.000000,Z=-6.000000)
+     PlayerViewMesh=LodMesh'DeusExItems.Binoculars'
+     PickupViewMesh=LodMesh'DeusExItems.Binoculars'
+     ThirdPersonMesh=LodMesh'DeusExItems.Binoculars'
+     LandSound=Sound'DeusExSounds.Generic.PaperHit2'
+     Icon=Texture'DeusExUI.Icons.BeltIconBinoculars'
+     largeIcon=Texture'DeusExUI.Icons.LargeIconBinoculars'
+     largeIconWidth=49
+     largeIconHeight=34
+     Description="A pair of military binoculars."
+     beltDescription="BINOCS"
+     Mesh=LodMesh'DeusExItems.Binoculars'
+     CollisionRadius=7.000000
+     CollisionHeight=2.060000
+     Mass=5.000000
+     Buoyancy=6.000000
 }

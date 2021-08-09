@@ -32,7 +32,7 @@ function string GetDisplayString(Actor P)
 
 defaultproperties
 {
-     ProjectileClass=Class'RocketHostage'
+     ProjectileClass=Class'PartyStuff.RocketHostage'
      InventoryGroup=182
      ItemName="Hostage Weapon"
      Description="Blablabla takes people hostage blablabla."

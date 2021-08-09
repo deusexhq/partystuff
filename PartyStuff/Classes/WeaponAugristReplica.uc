@@ -93,16 +93,16 @@ function AugExp()
 
 defaultproperties
 {
-     InventoryGroup=111867
+     InventoryGroup=251
      ItemName="Augrist Replica"
-	 ItemArticle="an"
+     ItemArticle="an"
      Description="A strange, ancient triad weapon. You would be hard pressed finding out anything else about it."
      beltDescription="AUGRIST"
      MultiSkins(1)=Texture'DeusExItems.Skins.PinkMaskTex'
-	 MultiSkins(2)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(2)=Texture'DeusExItems.Skins.PinkMaskTex'
      MultiSkins(4)=FireTexture'Effects.Electricity.Wepn_EMPG_SFX'
      MultiSkins(5)=FireTexture'Effects.Electricity.Wepn_EMPG_SFX'
-	 MultiSkins(6)=Texture'DeusExItems.Skins.PinkMaskTex'
-	 MultiSkins(7)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(6)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(7)=Texture'DeusExItems.Skins.PinkMaskTex'
      LightHue=128
 }

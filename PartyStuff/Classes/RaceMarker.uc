@@ -56,30 +56,26 @@ function Timer()
 
 }
 
-
 defaultproperties
 {
-
-     bInvincible=True
      HitPoints=100
-     ItemName="Race Marker"
-     //bMovable=False
-     bPushable=False
+     bInvincible=True
      bHighlight=False
-     LightBrightness=100
+     ItemName="Race Marker"
+     bPushable=False
      Physics=PHYS_Rotating
-     Lighttype=LT_Steady
-     LightRadius=10
-     Ambientglow=255
-     LightSaturation=255
-	 Drawscale=1
-	 Fatness=140
-	 style=sty_translucent
-	 bBlockPlayers=False
+     Style=STY_Translucent
+     Texture=Texture'DeusExUI.UserInterface.AugIconCombat_Small'
      Mesh=LodMesh'DeusExDeco.Lightbulb'
-     Texture=Texture'DeusExUI.UserInterface.AugIconCombat_Small';
+     AmbientGlow=255
+     Fatness=140
      CollisionRadius=5.000000
      CollisionHeight=8.000000
-          bFixedRotationDir=True
+     bBlockPlayers=False
+     LightType=LT_Steady
+     LightBrightness=100
+     LightSaturation=255
+     LightRadius=10
+     bFixedRotationDir=True
      RotationRate=(Yaw=8192)
 }

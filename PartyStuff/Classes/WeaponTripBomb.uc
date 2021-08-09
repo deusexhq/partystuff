@@ -93,12 +93,12 @@ defaultproperties
      mpBaseAccuracy=1.000000
      mpAccurateRange=2400
      mpMaxRange=2400
-     AmmoName=Class'AmmoTripB'
+     mpPickupAmmoCount=6
+     AmmoName=Class'PartyStuff.AmmoTripB'
      ReloadCount=1
      PickupAmmoCount=6
-	 mpPickupAmmoCount=6
      FireOffset=(Y=10.000000,Z=20.000000)
-     ProjectileClass=Class'TripProj'
+     ProjectileClass=Class'PartyStuff.TripProj'
      shakemag=50.000000
      SelectSound=Sound'DeusExSounds.Weapons.LAMSelect'
      InventoryGroup=128

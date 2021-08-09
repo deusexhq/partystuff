@@ -9,5 +9,5 @@ destroy();
 
 defaultproperties
 {
-bHidden=True
+     bHidden=True
 }

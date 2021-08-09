@@ -37,7 +37,7 @@ simulated function DrawExplosionEffects(vector HitLocation, vector HitNormal)
 defaultproperties
 {
      DamageType=Flamed
-     spawnWeaponClass=Class'WeaponWPGrenade'
+     spawnWeaponClass=Class'PartyStuff.WeaponWPGrenade'
      ItemName="WP Grenade"
      ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'
 }

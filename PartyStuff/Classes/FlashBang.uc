@@ -22,12 +22,12 @@ local Float TargetRange;
 
 defaultproperties
 {
-    fuseLength=3.00
-    proxRadius=128.00
-    spawnWeaponClass=Class'WeaponFlashBang'
-    spawnAmmoClass=Class'AmmoFlashBang'
-    ItemName="Flash Bang Grenade"
-    speed=1500.00
-    ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'
-    Mesh=LodMesh'DeusExItems.EMPGrenadePickup'
+     fuseLength=3.000000
+     proxRadius=128.000000
+     spawnWeaponClass=Class'PartyStuff.WeaponFlashBang'
+     spawnAmmoClass=Class'PartyStuff.AmmoFlashBang'
+     ItemName="Flash Bang Grenade"
+     speed=1500.000000
+     ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'
+     Mesh=LodMesh'DeusExItems.EMPGrenadePickup'
 }

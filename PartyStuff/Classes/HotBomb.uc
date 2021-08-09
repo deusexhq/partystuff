@@ -119,16 +119,16 @@ function Bump(actor Other)
 
 defaultproperties
 {
-  Mesh=Mesh'hellfire'
-    CollisionRadius=14.00000
-  CollisionHeight=34.00000
-    MultiSkins(0)=Texture'Area51Textures.Metal.pa_nukewste_a'
-  MultiSkins(1)=Texture'Area51Textures.Metal.area51shere_a'
-  MultiSkins(2)=Texture'Area51Textures.Metal.A51_Wall_11'
      AffectRadius=700
      minCount=5
      MaxCount=20
      bInvincible=True
      ItemName="Hot BOMB"
      bPushable=False
+     Mesh=LodMesh'PGAssets.hellfire'
+     MultiSkins(0)=Texture'Area51Textures.Metal.pa_nukewste_a'
+     MultiSkins(1)=Texture'Area51Textures.Metal.area51shere_a'
+     MultiSkins(2)=Texture'Area51Textures.Metal.A51_Wall_11'
+     CollisionRadius=14.000000
+     CollisionHeight=34.000000
 }

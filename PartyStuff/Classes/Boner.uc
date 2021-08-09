@@ -203,24 +203,24 @@ BP.Payloader = DeusExPlayer(Owner);
 
 defaultproperties
 {
-    mpDamage=65.00
-    mpAccurateRange=640
-    mpMaxRange=640
-    bExplodes=True
-    bBlood=True
-    blastRadius=64.00
-    DamageType=shot
-    AccurateRange=640
-    maxRange=1280
-    bIgnoresNanoDefense=True
-    ItemName="Boner"
-    ItemArticle="the"
-    speed=1000.00
-    MaxSpeed=1000.00
-    Damage=100.00
-    MomentumTransfer=128
-    ImpactSound=Sound'DeusExSounds.Generic.BulletHitFlesh'
-    Mesh=LodMesh'DeusExDeco.BoneFemur'
-    CollisionRadius=12.65
-    CollisionHeight=0.80
+     mpDamage=65.000000
+     mpAccurateRange=640
+     mpMaxRange=640
+     bExplodes=True
+     bBlood=True
+     blastRadius=64.000000
+     DamageType=shot
+     AccurateRange=640
+     maxRange=1280
+     bIgnoresNanoDefense=True
+     ItemName="Boner"
+     ItemArticle="the"
+     speed=1000.000000
+     MaxSpeed=1000.000000
+     Damage=100.000000
+     MomentumTransfer=128
+     ImpactSound=Sound'DeusExSounds.Generic.BulletHitFlesh'
+     Mesh=LodMesh'DeusExDeco.BoneFemur'
+     CollisionRadius=12.650000
+     CollisionHeight=0.800000
 }

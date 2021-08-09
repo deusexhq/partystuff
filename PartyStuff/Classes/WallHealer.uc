@@ -117,7 +117,7 @@ defaultproperties
      Physics=PHYS_None
      Mesh=LodMesh'DeusExItems.MedKit'
      DrawScale=4.000000
-     MultiSkins(0)=Texture'iMed'
+     MultiSkins(0)=Texture'PGAssets.Skins.iMed'
      SoundRadius=8
      SoundVolume=96
      AmbientSound=Sound'Ambient.Ambient.HumLow3'

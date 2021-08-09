@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'DartLight'
+     ProjectileClass=Class'PartyStuff.DartLight'
      InventoryGroup=255
      ItemName="|P1Disco Needle Gun"
      beltDescription="D-NEEDLE"

@@ -210,7 +210,7 @@ defaultproperties
      FragType=Class'DeusEx.WoodFragment'
      ItemName="Party Battle Weapon Box!"
      bBlockSight=True
-     Skin=Texture'PartyBox'
+     Skin=Texture'PGAssets.Skins.PartyBox'
      Mesh=LodMesh'DeusExDeco.CrateBreakableMed'
      CollisionRadius=34.000000
      CollisionHeight=24.000000

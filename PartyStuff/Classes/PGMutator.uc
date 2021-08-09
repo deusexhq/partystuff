@@ -819,7 +819,10 @@ function DXScriptedPawn GetLink(playerpawn check)
 
 defaultproperties
 {
-    bSpydroneMod=True
-    bSuperGore=True
-    bHidden=True
+     bSuperGore=True
+     bSpydroneMod=True
+     bAllowPlay=True
+     bAllowPlayAll=True
+     bGiveAutoMed=True
+     bGivePSCC=True
 }

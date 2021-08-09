@@ -16,9 +16,9 @@ defaultproperties
      MaxSpeed=800.000000
      Damage=2.000000
      MomentumTransfer=400
-     ExplosionDecal=Class'GraffitiMarkRed'
+     ExplosionDecal=Class'PartyStuff.GraffitiMarkRed'
      LifeSpan=0.500000
-     Texture=Texture'gred'
+     Texture=Texture'PGAssets.Skins.gred'
      DrawScale=0.250000
      bUnlit=True
 }

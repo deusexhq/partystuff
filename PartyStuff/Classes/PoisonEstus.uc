@@ -169,42 +169,40 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-		ExplosionRadius=100
-	ExplosionDamage=100
-	bBreakable=True
+     explosionDamage=100.000000
+     explosionRadius=100.000000
+     bBreakable=True
      maxCopies=1
      bActivatable=True
      ItemName="Poisoned Estus flask"
-     M_Activated=""
      PlayerViewOffset=(X=16.000000,Y=8.000000,Z=-16.000000)
      PlayerViewMesh=LodMesh'DeusExDeco.Flask'
      PickupViewMesh=LodMesh'DeusExDeco.Flask'
      ThirdPersonMesh=LodMesh'DeusExDeco.Flask'
      LandSound=Sound'DeusExSounds.Generic.GlassHit1'
-     Icon=Texture'BeltIconEstus'
-     largeIcon=Texture'LargeIconEstus'
+     Icon=Texture'PGAssets.Icons.BeltIconEstus'
+     M_Activated=""
      largeIconWidth=18
      largeIconHeight=44
      Description="Estus magic potion of healing"
      beltDescription="POISONESTUS"
-    Texture=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    Mesh=LodMesh'DeusExDeco.Flask'
-    AmbientGlow=20
-    MultiSkins(0)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(1)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(2)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(3)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(4)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(5)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(6)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    MultiSkins(7)=Texture'DeusExDeco.Skins.AlarmLightTex9'
-    SoundVolume=64
-    CollisionRadius=4.20
-    CollisionHeight=7.45
-    LightType=1
-    LightBrightness=50
-    LightSaturation=20
-    LightRadius=5
-    Mass=10.00
-    Buoyancy=8.00
+     Texture=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     Mesh=LodMesh'DeusExDeco.Flask'
+     AmbientGlow=20
+     MultiSkins(0)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(1)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(2)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(3)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(4)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(5)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(6)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     MultiSkins(7)=Texture'DeusExDeco.Skins.AlarmLightTex9'
+     SoundVolume=64
+     CollisionRadius=4.200000
+     CollisionHeight=7.450000
+     LightBrightness=50
+     LightSaturation=20
+     LightRadius=5
+     Mass=10.000000
+     Buoyancy=8.000000
 }

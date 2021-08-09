@@ -55,15 +55,15 @@ function Frob(actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-    Price=50
-    bCanBeBase=True
-    ItemName="Coffee Machine"
-    Mesh=LodMesh'CoffeeMachine'
-    SoundRadius=8
-    SoundVolume=96
-    AmbientSound=Sound'Ambient.Ambient.HumLow3'
-    CollisionRadius=32.35
-    CollisionHeight=50.00
-    Mass=150.00
-    Buoyancy=100.00
+     Price=50
+     bCanBeBase=True
+     ItemName="Coffee Machine"
+     Mesh=LodMesh'Endemia.CoffeeMachine'
+     SoundRadius=8
+     SoundVolume=96
+     AmbientSound=Sound'Ambient.Ambient.HumLow3'
+     CollisionRadius=32.349998
+     CollisionHeight=50.000000
+     Mass=150.000000
+     Buoyancy=100.000000
 }

@@ -45,27 +45,27 @@ function UsedUp()
 
 defaultproperties
 {
-    ActivateSound=Sound'DeusExSounds.Augmentation.CloakUp'
-    DeActivateSound=None
-    ChargeRemainingLabel="Box readiness:"
-    ItemName="Portable Hideybox"
-    PlayerViewOffset=(X=20.00,Y=0.00,Z=-12.00),
-    PlayerViewMesh=LodMesh'DeusExDeco.BoxLarge'
-    PlayerViewScale=0.20
-    PickupViewMesh=LodMesh'DeusExDeco.BoxLarge'
-    ThirdPersonMesh=LodMesh'DeusExDeco.BoxLarge'
-    ThirdPersonScale=0.25
-    Charge=8
-    LandSound=Sound'DeusExSounds.Generic.DropLargeWeapon'
-    Icon=Texture'DeusExUI.Icons.BeltIconArmorAdaptive'
-    largeIcon=Texture'DeusExUI.Icons.LargeIconArmorAdaptive'
-    largeIconWidth=35
-    largeIconHeight=49
-    Description="s"
-    beltDescription="BOX"
-    Mesh=LodMesh'DeusExDeco.BoxLarge'
-    CollisionRadius=45.00
-    CollisionHeight=32.00
-    Mass=10.00
-    Buoyancy=100.00
+     ActivateSound=Sound'DeusExSounds.Augmentation.CloakUp'
+     DeActivateSound=None
+     ChargeRemainingLabel="Box readiness:"
+     ItemName="Portable Hideybox"
+     PlayerViewOffset=(X=20.000000,Z=-12.000000)
+     PlayerViewMesh=LodMesh'DeusExDeco.BoxLarge'
+     PlayerViewScale=0.200000
+     PickupViewMesh=LodMesh'DeusExDeco.BoxLarge'
+     ThirdPersonMesh=LodMesh'DeusExDeco.BoxLarge'
+     ThirdPersonScale=0.250000
+     Charge=8
+     LandSound=Sound'DeusExSounds.Generic.DropLargeWeapon'
+     Icon=Texture'DeusExUI.Icons.BeltIconArmorAdaptive'
+     largeIcon=Texture'DeusExUI.Icons.LargeIconArmorAdaptive'
+     largeIconWidth=35
+     largeIconHeight=49
+     Description="s"
+     beltDescription="BOX"
+     Mesh=LodMesh'DeusExDeco.BoxLarge'
+     CollisionRadius=45.000000
+     CollisionHeight=32.000000
+     Mass=10.000000
+     Buoyancy=100.000000
 }

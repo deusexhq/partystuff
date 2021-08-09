@@ -37,11 +37,11 @@ defaultproperties
      mpBaseAccuracy=0.700000
      mpAccurateRange=100
      mpMaxRange=100
-     AmmoName=Class'SprayPaint'
+     AmmoName=Class'PartyStuff.SprayPaint'
      ReloadCount=200
      PickupAmmoCount=800
      FireOffset=(X=-22.000000,Y=10.000000,Z=14.000000)
-     ProjectileClass=Class'GraffitiSpray'
+     ProjectileClass=Class'PartyStuff.GraffitiSpray'
      shakemag=10.000000
      FireSound=Sound'DeusExSounds.Weapons.PepperGunFire'
      AltFireSound=Sound'DeusExSounds.Weapons.PepperGunReloadEnd'

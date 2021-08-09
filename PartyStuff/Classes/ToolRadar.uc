@@ -109,13 +109,12 @@ function Timer()
 
 defaultproperties
 {
+     bEnabled=True
+     BeepActive=Sound'DeusExSounds.Generic.TurretSwitch'
+     bCanBeBase=True
      ItemName="Radar"
-	 bCanbeBase=True
-	 BeepActive=Sound'TurretSwitch'
-      Mesh=LodMesh'DeusExDeco.AcousticSensor'
+     Mesh=LodMesh'DeusExDeco.AcousticSensor'
      CollisionRadius=24.400000
      CollisionHeight=23.059999
      Mass=10.000000
-	 bPushable=True
-	 bEnabled=True
 }

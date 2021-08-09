@@ -103,7 +103,7 @@ defaultproperties
      FireSound=Sound'DeusExSounds.Generic.Beep1'
      InventoryGroup=117
      ItemName="Arrester gun"
-	 ItemArticle="the"
+     ItemArticle="the"
      Description="A Pistol that charges up it's projectile and that projectile can disarm any person immediately."
      beltDescription="PP"
 }

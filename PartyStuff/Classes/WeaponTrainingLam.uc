@@ -91,7 +91,7 @@ defaultproperties
      ReloadCount=1
      PickupAmmoCount=1
      FireOffset=(Y=10.000000,Z=20.000000)
-     ProjectileClass=Class'TrainingLam'
+     ProjectileClass=Class'PartyStuff.TrainingLam'
      shakemag=50.000000
      SelectSound=Sound'DeusExSounds.Weapons.LAMSelect'
      InventoryGroup=20

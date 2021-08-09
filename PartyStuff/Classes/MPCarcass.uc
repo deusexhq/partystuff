@@ -666,21 +666,5 @@ Begin:
 
 defaultproperties
 {
-     bHighlight=True
-     msgSearching="You found:"
-     msgEmpty="You don't find anything"
-     msgNotDead="Unconscious"
-     msgAnimalCarcass="Animal Carcass"
-     msgCannotPickup="You cannot pickup the %s"
-     msgRecharged="Recharged %d points"
-     ItemName="Dead Body"
-     RemoteRole=ROLE_SimulatedProxy
-     LifeSpan=0.000000
      CollisionRadius=40.000000
-     CollisionHeight=7.000000
-     bCollideWorld=False
-     Mass=150.000000
-     Buoyancy=170.000000
-     BindName="DeadBody"
-     bVisionImportant=True
 }

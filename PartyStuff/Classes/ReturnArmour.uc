@@ -6,6 +6,7 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 {
    return ( (BeltSpot >= 1) && (BeltSpot <=9) );
 }
+
 defaultproperties
 {
      ItemName="Return Armour"
@@ -22,8 +23,8 @@ defaultproperties
      largeIconHeight=49
      Description="Integrating woven fiber-optics and an advanced computing system, thermoptic camo can render an agent invisible to both humans and bots by dynamically refracting light and radar waves; however, the high power drain makes it impractial for more than short-term use, after which the circuitry is fused and it becomes useless."
      beltDescription="RETURN"
-	 MultiSkins(1)=FireTexture'Effects.UserInterface.WhiteStatic'
      Mesh=LodMesh'DeusExItems.AdaptiveArmor'
+     MultiSkins(1)=FireTexture'Effects.UserInterface.WhiteStatic'
      CollisionRadius=11.500000
      CollisionHeight=13.810000
      Mass=30.000000

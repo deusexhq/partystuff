@@ -27,10 +27,10 @@ defaultproperties
      spawnAmmoClass=Class'DeusEx.AmmoDartFlare'
      ItemName="Light Dart"
      Damage=5.000000
+     LifeSpan=120.000000
      bUnlit=True
      LightEffect=LE_Disco
      LightBrightness=255
      LightSaturation=50
      LightRadius=20
-     Lifespan=120
 }

@@ -285,5 +285,5 @@ defaultproperties
      CollisionRadius=40.000000
      CollisionHeight=40.000000
      NetUpdateFrequency=15.000000
-     RenderIteratorClass=Class'MPLaserIterator'
+     RenderIteratorClass=Class'PartyStuff.MPLaserIterator'
 }

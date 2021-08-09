@@ -60,5 +60,5 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-	ItemName="Travel Switch"
+     ItemName="Travel Switch"
 }

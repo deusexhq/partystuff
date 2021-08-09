@@ -37,6 +37,6 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-	bPSActive=True
+     bPSActive=True
      ItemName="Exit the arena!"
 }

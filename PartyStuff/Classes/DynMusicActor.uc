@@ -91,5 +91,4 @@ local bool bFoundCombat;
 
 defaultproperties
 {
-     bHidden=True
 }

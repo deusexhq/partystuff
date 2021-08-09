@@ -29,17 +29,16 @@ local Pawn paw;
 
 defaultproperties
 {
-    bInvincible=False
-    ItemName="Cube of Pain"
-    Physics=PHYS_Rotating
-    bPushable=False
-    Physics=5
-    Texture=FireTexture'Effects.Electricity.Nano_SFX_A'
-    Skin=FireTexture'Effects.Electricity.Nano_SFX_A'
-    DrawScale=1.50
-    CollisionRadius=25.00
-    CollisionHeight=76.00
-    bFixedRotationDir=True
-    Mass=500.00
-    RotationRate=(Pitch=11192,Yaw=11192,Roll=11192),
+     bInvincible=False
+     ItemName="Cube of Pain"
+     bPushable=False
+     Physics=PHYS_Rotating
+     Texture=FireTexture'Effects.Electricity.Nano_SFX_A'
+     Skin=FireTexture'Effects.Electricity.Nano_SFX_A'
+     DrawScale=1.500000
+     CollisionRadius=25.000000
+     CollisionHeight=76.000000
+     bFixedRotationDir=True
+     Mass=500.000000
+     RotationRate=(Pitch=11192,Yaw=11192,Roll=11192)
 }

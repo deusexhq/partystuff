@@ -256,11 +256,11 @@ state NormalFire //(Thanks to JimBowen for this Infinite ammo code)
 
 defaultproperties
 {
+     Grapvel=1500
+     JumpVel=-950
+     rGrapvel=1500
+     rJumpVel=-950
      LowAmmoWaterMark=4
-	 Grapvel=1500
-	 Jumpvel=-950
-	 rGrapvel=1500
-	 rJumpvel=-950
      GoverningSkill=Class'DeusEx.SkillWeaponPistol'
      NoiseLevel=0.050000
      EnemyEffective=ENMEFF_Organic
@@ -286,13 +286,13 @@ defaultproperties
      bCanHaveModAccurateRange=True
      bCanHaveModReloadTime=True
      FireOffset=(X=-25.000000,Y=8.000000,Z=14.000000)
-     ProjectileClass=Class'DartUtil'
+     ProjectileClass=Class'PartyStuff.DartUtil'
      shakemag=30.000000
      FireSound=Sound'DeusExSounds.Weapons.MiniCrossbowFire'
      AltFireSound=Sound'DeusExSounds.Weapons.MiniCrossbowReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.MiniCrossbowReload'
      SelectSound=Sound'DeusExSounds.Weapons.MiniCrossbowSelect'
-     InventoryGroup=9213
+     InventoryGroup=253
      ItemName="Utility-Crossbow"
      PlayerViewOffset=(X=25.000000,Y=-8.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.MiniCrossbow'

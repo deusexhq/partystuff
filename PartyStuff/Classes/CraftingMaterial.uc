@@ -112,23 +112,22 @@ simulated event RenderOverlays(canvas Canvas)
 
 defaultproperties
 {
-    Mesh=LodMesh'DeusExItems.GlassFragment1'
-    maxCopies=20
-    M_Activated=""
-    bBreakable=False
-        bActivatable=True
-    bCanHaveMultipleCopies=True
-    ItemName="Material shard"
-    Description="A material"
-    beltDescription="CRAFT"
-    PlayerViewOffset=(X=30.000000,Z=-12.000000)
+     maxCopies=20
+     bCanHaveMultipleCopies=True
+     bActivatable=True
+     ItemName="Material shard"
+     PlayerViewOffset=(X=30.000000,Z=-12.000000)
      PlayerViewMesh=LodMesh'DeusExItems.GlassFragment1'
      PickupViewMesh=LodMesh'DeusExItems.GlassFragment1'
      ThirdPersonMesh=LodMesh'DeusExItems.GlassFragment1'
      LandSound=Sound'DeusExSounds.Generic.GlassHit1'
-     CollisionRadius=2
-     CollisionHeight=2
-     	 style=sty_translucent
+     Icon=Texture'PGAssets.Icons.BeltIconCrafting'
+     M_Activated=""
+     Description="A material"
+     beltDescription="CRAFT"
+     Style=STY_Translucent
      Skin=Texture'DeusExItems.Skins.GlassFragmentTex1'
-     Icon=Texture'BeltIconCrafting'
+     Mesh=LodMesh'DeusExItems.GlassFragment1'
+     CollisionRadius=2.000000
+     CollisionHeight=2.000000
 }

@@ -81,7 +81,5 @@ defaultproperties
      SoundVolume=255
      CollisionRadius=5.000000
      CollisionHeight=5.000000
-     bBounce=True
-     bFixedRotationDir=True
      DesiredRotation=(Pitch=12000,Yaw=5666,Roll=2334)
 }

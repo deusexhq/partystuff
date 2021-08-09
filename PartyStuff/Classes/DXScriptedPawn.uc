@@ -4464,13 +4464,13 @@ function bool FireIfClearShot()
   else
 	  return false;
 }
-    
+
 defaultproperties
 {
-	SoundBossArmourBreak=Sound'DeusExSounds.Augmentation.CloakDown'
-	SoundBossArmourRestore=Sound'DeusExSounds.Augmentation.Cloakup'
      Saymsg="I have nothing to say to you."
      scoreCredits=50
+     SoundBossArmourBreak=Sound'DeusExSounds.Augmentation.CloakDown'
+     SoundBossArmourRestore=Sound'DeusExSounds.Augmentation.CloakUp'
      bAimForHead=True
      RaiseAlarm=RAISEALARM_Never
      NameArticle=""

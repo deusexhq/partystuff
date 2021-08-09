@@ -208,24 +208,25 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-     LowAmmoWaterMark=30
-     AirAmmo=10
+     airammo=10
      rAirammo=10
+     LowAmmoWaterMark=30
      GoverningSkill=Class'DeusEx.SkillWeaponRifle'
      EnviroEffective=ENVEFF_Air
      Concealability=CONC_Visual
      bAutomatic=True
      ShotTime=0.100000
      reloadTime=3.000000
-     HitDamage=10
      BaseAccuracy=0.000003
+     bHasScope=True
      bCanHaveLaser=True
+     bHasLaser=True
      bCanHaveSilencer=True
      recoilStrength=0.500000
      MinWeaponAcc=0.000002
      mpReloadTime=0.500000
      mpHitDamage=20
-     mpBaseAccuracy=0.0000002
+     mpBaseAccuracy=0.000000
      mpAccurateRange=2400
      mpMaxRange=2400
      mpReloadCount=20
@@ -234,8 +235,6 @@ defaultproperties
      bCanHaveModAccurateRange=True
      bCanHaveModReloadTime=True
      bCanHaveModRecoilStrength=True
-	 bHasLaser=True
-	 bHasScope=True
      AmmoName=Class'DeusEx.Ammo762mm'
      ReloadCount=20
      PickupAmmoCount=60
@@ -246,22 +245,22 @@ defaultproperties
      AltFireSound=Sound'DeusExSounds.Weapons.AssaultGunReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.AssaultGunReload'
      SelectSound=Sound'DeusExSounds.Weapons.AssaultGunSelect'
-     InventoryGroup=45242
+     InventoryGroup=186
      ItemName="Airget-Lamh B/V2"
-     PlayerViewOffset=(X=10,Y=-5,Z=-15)
-     PlayerViewMesh=LodMesh'BRAssaultGun'
-     PickupViewMesh=LodMesh'BRAssaultGunPickup'
-     ThirdPersonMesh=LodMesh'BRAssaultGun3rd'
-     Mesh=LodMesh'BRAssaultGunPickup'
+     PlayerViewOffset=(X=10.000000,Y=-5.000000,Z=-15.000000)
+     PlayerViewMesh=LodMesh'PGAssets.BRAssaultGun'
+     PickupViewMesh=LodMesh'PGAssets.BRAssaultGunPickup'
+     ThirdPersonMesh=LodMesh'PGAssets.BRAssaultGun3rd'
      LandSound=Sound'DeusExSounds.Generic.DropMediumWeapon'
-     Icon=Texture'BeltIconSGAssault'
-     largeIcon=Texture'LargeSGAssaultIcon'
-	largeIconWidth=203
-	largeIconHeight=77
+     Icon=Texture'PGAssets.Icons.BeltIconSGAssault'
+     largeIcon=Texture'PGAssets.Icons.LargeSGAssaultIcon'
+     largeIconWidth=203
+     largeIconHeight=77
      invSlotsX=2
      invSlotsY=2
      Description="The 7.62x51mm assault rifle is designed for close-quarters combat, utilizing a shortened barrel and 'bullpup' design for increased maneuverability. An additional underhand 20mm HE launcher increases the rifle's effectiveness against a variety of targets."
      beltDescription="AIRGET"
+     Mesh=LodMesh'PGAssets.BRAssaultGunPickup'
      CollisionRadius=15.000000
      CollisionHeight=1.100000
      Mass=30.000000

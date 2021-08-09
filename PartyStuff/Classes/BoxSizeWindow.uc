@@ -87,7 +87,7 @@ defaultproperties
 {
      okButtonText="Ok"
      defaultButtonText="Set as Default"
-     exitButtonText="Done"
+     exitbuttontext="Done"
      ClientWidth=350
      ClientHeight=85
      clientTextures(0)=Texture'DeusExUI.UserInterface.MenuMessageBoxBackground_1'

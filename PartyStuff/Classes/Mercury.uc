@@ -7,10 +7,10 @@ defaultproperties
 {
      bStatic=False
      Physics=PHYS_Rotating
-	 bMeshEnviroMap=True
      Texture=Texture'DeusExDeco.Skins.DXLogoTex1'
      Mesh=LodMesh'DeusExDeco.Earth'
      DrawScale=2.250000
+     bMeshEnviroMap=True
      CollisionRadius=123.639999
      CollisionHeight=125.699997
      bCollideActors=False

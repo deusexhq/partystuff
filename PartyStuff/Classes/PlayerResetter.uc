@@ -20,5 +20,4 @@ function Timer()
 
 defaultproperties
 {
-bHidden=True
 }

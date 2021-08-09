@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'BB'
+     ProjectileClass=Class'PartyStuff.BB'
      InventoryGroup=255
      ItemName="|P5Charged Energy Rifle"
      beltDescription="ENERGY"

@@ -179,8 +179,8 @@ defaultproperties
      bInvincible=True
      ItemName="The Glowing Orb of Insultery"
      bPushable=False
+     Physics=PHYS_None
      DrawType=DT_Sprite
-	 Physics=PHYS_None
      Style=STY_Translucent
      Texture=Texture'DeusExDeco.Skins.AlarmLightTex6'
      Skin=Texture'DeusExDeco.Skins.AlarmLightTex6'

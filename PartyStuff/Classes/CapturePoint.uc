@@ -7,5 +7,5 @@ var int CWin;
 
 defaultproperties
 {
-CWin=3
+     CWin=3
 }

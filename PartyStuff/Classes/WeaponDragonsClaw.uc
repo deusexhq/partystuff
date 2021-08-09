@@ -104,7 +104,7 @@ defaultproperties
      MultiSkins(1)=FireTexture'Effects.Fire.flmethrwr_fire'
      MultiSkins(2)=FireTexture'Effects.Fire.flmethrwr_fire'
      MultiSkins(4)=FireTexture'Effects.Fire.flmethrwr_fire'
-	 MultiSkins(5)=FireTexture'Effects.Fire.flmethrwr_fire'
-	 MultiSkins(6)=FireTexture'Effects.Fire.flmethrwr_fire'
+     MultiSkins(5)=FireTexture'Effects.Fire.flmethrwr_fire'
+     MultiSkins(6)=FireTexture'Effects.Fire.flmethrwr_fire'
      LightHue=40
 }

@@ -1,10 +1,9 @@
 class WeaponMomsKnives extends WeaponShuriken;
 
-
 defaultproperties
 {
-     AmmoName=Class'AmmoPoisonKnife'
-     ProjectileClass=Class'MomsKnife'
+     AmmoName=Class'PartyStuff.AmmoPoisonKnife'
+     ProjectileClass=Class'PartyStuff.MomsKnife'
      ItemName="Mom's Knives"
      PlayerViewOffset=(X=5.000000,Y=-8.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.CombatKnife'
@@ -13,7 +12,6 @@ defaultproperties
      Icon=Texture'DeusExUI.Icons.BeltIconCombatKnife'
      largeIcon=Texture'DeusExUI.Icons.LargeIconCombatKnife'
      largeIconWidth=49
-     largeIconHeight=45
      Description="An ultra-high carbon stainless steel knife."
      beltDescription="MOMS T"
      Mesh=LodMesh'DeusExItems.CombatKnifePickup'

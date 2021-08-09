@@ -266,16 +266,15 @@ function TraceFire (float Accuracy)
 	ProcessTraceHit(Other,HitLocation,HitNormal,X,Y,Z);
 }
 
-
 defaultproperties
 {
-	     Thick=64.000000
-     PawnThick=32.000000
-	    ZoomScale=1.00
-    ZoomInc=0.10
-    MaxScale=1.00
-    MinScale=0.10
      mpNoScopeMult=0.350000
+     ZoomScale=1.000000
+     ZoomInc=0.100000
+     MaxScale=1.000000
+     MinScale=0.100000
+     Thick=64.000000
+     PawnThick=32.000000
      LowAmmoWaterMark=6
      GoverningSkill=Class'DeusEx.SkillWeaponRifle'
      NoiseLevel=2.000000
@@ -314,7 +313,7 @@ defaultproperties
      SelectSound=Sound'DeusExSounds.Weapons.RifleSelect'
      InventoryGroup=5
      ItemName="Gunganir HAG35"
-	 ItemArticle="the"
+     ItemArticle="the"
      PlayerViewOffset=(X=20.000000,Y=-2.000000,Z=-30.000000)
      PlayerViewMesh=LodMesh'DeusExItems.SniperRifle'
      PickupViewMesh=LodMesh'DeusExItems.SniperRiflePickup'

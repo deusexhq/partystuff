@@ -136,13 +136,13 @@ defaultproperties
      bCanHaveModAccurateRange=True
      bCanHaveModReloadTime=True
      FireOffset=(X=-24.000000,Y=10.000000,Z=14.000000)
-     ProjectileClass=Class'Boner'
+     ProjectileClass=Class'PartyStuff.Boner'
      shakemag=50.000000
      FireSound=Sound'DeusExSounds.Weapons.MiniCrossbowFire'
      AltFireSound=Sound'DeusExSounds.Weapons.StealthPistolReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.StealthPistolReload'
      SelectSound=Sound'DeusExSounds.Weapons.StealthPistolSelect'
-     InventoryGroup=11353534
+     InventoryGroup=190
      ItemName="Boner"
      PlayerViewOffset=(X=22.000000,Y=-10.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.Glock'
@@ -154,8 +154,8 @@ defaultproperties
      largeIconHeight=37
      Description="Hot boner"
      beltDescription="Boner"
-    Mesh=LodMesh'DeusExItems.Glock'
-	Skin=Texture'boner3rdTex1'
+     Skin=Texture'PGAssets.boner3rdTex1'
+     Mesh=LodMesh'DeusExItems.Glock'
      CollisionRadius=7.000000
      CollisionHeight=1.000000
      Mass=3.000000

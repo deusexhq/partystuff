@@ -62,8 +62,8 @@ defaultproperties
      HitPoints=10
      FragType=Class'DeusEx.WoodFragment'
      ItemName="Drone Storage Container"
+     bPushable=False
      bBlockSight=True
-	 bPushable=False
      Mesh=LodMesh'DeusExDeco.CrateBreakableMed'
      CollisionRadius=34.000000
      CollisionHeight=24.000000

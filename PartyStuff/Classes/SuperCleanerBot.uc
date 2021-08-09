@@ -283,7 +283,6 @@ ContinueFromDoor:
 
 defaultproperties
 {
-     majorDir=CLEANDIR_East
      EMPHitPoints=20
      WalkingSpeed=0.200000
      GroundSpeed=300.000000
@@ -292,8 +291,6 @@ defaultproperties
      AccelRate=500.000000
      Health=20
      UnderWaterTime=20.000000
-     AttitudeToPlayer=ATTITUDE_Ignore
-     DrawType=DT_Mesh
      Mesh=LodMesh'DeusExCharacters.CleanerBot'
      SoundRadius=16
      SoundVolume=128

@@ -111,7 +111,6 @@ function BecomeItem()
 
 defaultproperties
 {
-     M_Activated=" eaten"
      rechargeAmount=25
      msgRecharged="Replenished %d health points"
      RechargesLabel="Replenished %d health points"
@@ -125,6 +124,7 @@ defaultproperties
      ThirdPersonMesh=LodMesh'DeusExItems.BioCell'
      LandSound=Sound'DeusExSounds.Generic.PlasticHit2'
      Icon=Texture'DeusExUI.Icons.BeltIconBioCell'
+     M_Activated=" eaten"
      largeIcon=Texture'DeusExUI.Icons.LargeIconBioCell'
      largeIconWidth=44
      largeIconHeight=43

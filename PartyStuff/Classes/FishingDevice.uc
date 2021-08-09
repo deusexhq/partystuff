@@ -87,13 +87,13 @@ defaultproperties
      maxCopies=1
      bActivatable=True
      ItemName="Handheld Fishing Device"
-     M_Activated=""
      PlayerViewOffset=(X=20.000000,Y=10.000000,Z=-16.000000)
      PlayerViewMesh=LodMesh'DeusExItems.MultitoolPOV'
      PickupViewMesh=LodMesh'DeusExItems.Multitool'
      ThirdPersonMesh=LodMesh'DeusExItems.Multitool3rd'
      LandSound=Sound'DeusExSounds.Generic.PlasticHit2'
      Icon=Texture'DeusExUI.Icons.BeltIconMultitool'
+     M_Activated=""
      largeIcon=Texture'DeusExUI.Icons.LargeIconMultitool'
      largeIconWidth=28
      largeIconHeight=46

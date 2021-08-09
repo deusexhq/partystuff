@@ -139,21 +139,20 @@ function Timer()
 
 defaultproperties
 {
-    alarmTimeout=60.00
-    AUGroup=Default
-    bInvincible=True
-    ItemName="Alarm Network Panel [X]"
-    bPushable=False
-    Physics=0
-    Mesh=LodMesh'DeusExDeco.AlarmUnit'
-    MultiSkins(1)=Texture'DeusExItems.Skins.PinkMaskTex'
-    SoundRadius=56
-    SoundVolume=192
-    AmbientSound=Sound'DeusExSounds.Generic.AlarmUnitHum'
-    CollisionRadius=9.72
-    CollisionHeight=9.72
-    LightBrightness=255
-    LightRadius=1
-    Mass=10.00
-    Buoyancy=5.00
+     alarmTimeout=60.000000
+     AUGroup=Default
+     bInvincible=True
+     ItemName="Alarm Network Panel [X]"
+     bPushable=False
+     Mesh=LodMesh'DeusExDeco.AlarmUnit'
+     MultiSkins(1)=Texture'DeusExItems.Skins.PinkMaskTex'
+     SoundRadius=56
+     SoundVolume=192
+     AmbientSound=Sound'DeusExSounds.Generic.AlarmUnitHum'
+     CollisionRadius=9.720000
+     CollisionHeight=9.720000
+     LightBrightness=255
+     LightRadius=1
+     Mass=10.000000
+     Buoyancy=5.000000
 }

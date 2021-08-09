@@ -684,5 +684,4 @@ local PlayerReplicationInfo PRI;
 
 defaultproperties
 {
-bHidden=True
 }

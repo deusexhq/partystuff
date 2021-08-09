@@ -45,16 +45,15 @@ function Timer()
 
 defaultproperties
 {
-    WaitTime=2
-    bInvincible=True
-    bCanBeBase=True
-    ItemName="Bed"
-    bPushable=False
-    Physics=0
-    Mesh=LodMesh'bedsmall'
-    MultiSkins(0)=Texture'CoreTexTextile.Textile.ClenBlueGrey_A'
-    MultiSkins(1)=Texture'CoreTexWood.Wood.ClenMedmWalnt_A'
-    MultiSkins(2)=Texture'CoreTexPaper.Paper.ClenWhitPaint_A'
-    CollisionRadius=60.00
-    CollisionHeight=24.00
+     WaitTime=2
+     bInvincible=True
+     bCanBeBase=True
+     ItemName="Bed"
+     bPushable=False
+     Mesh=LodMesh'PGAssets.bedsmall'
+     MultiSkins(0)=Texture'CoreTexTextile.Textile.ClenBlueGrey_A'
+     MultiSkins(1)=Texture'CoreTexWood.Wood.ClenMedmWalnt_A'
+     MultiSkins(2)=Texture'CoreTexPaper.Paper.ClenWhitPaint_A'
+     CollisionRadius=60.000000
+     CollisionHeight=24.000000
 }

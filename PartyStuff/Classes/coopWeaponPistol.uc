@@ -26,10 +26,9 @@ function ProcessTraceHit(Actor Other, Vector HitLocation, Vector HitNormal, Vect
 	
 }
 
-
 defaultproperties
 {
-     InventoryGroup=1478563
+     InventoryGroup=163
      ItemName="Glock"
      beltDescription="GLOCK"
 }

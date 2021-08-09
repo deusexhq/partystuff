@@ -446,31 +446,29 @@ function PlayDying(name damageType, vector hitLoc) {}
 
 defaultproperties
 {
-	RocketsRemain=30
-	rrocketsRemain=30
-     Saymsg="I have no owner right now, grab a radar controller and let's hunt some n00bs!"
-	 BeepActive=Sound'TurretSwitch'
      explosionRadius=100.000000
      hoverdistance=200.000000
+     BeepActive=Sound'DeusExSounds.Generic.TurretSwitch'
+     RocketsRemain=30
+     rrocketsremain=30
      EMPHitPoints=40
-	 Health=600
+     Saymsg="I have no owner right now, grab a radar controller and let's hunt some n00bs!"
      MinHealth=20.000000
      bMustFaceTarget=True
      bCanStrafe=True
-	// bCollidePlayers=False
-	 bBlockPlayers=False
-	 Airspeed=1000
+     AirSpeed=1000.000000
      AccelRate=350.000000
+     Health=600
      DrawType=DT_Mesh
      Mesh=LodMesh'DeusExCharacters.SpyDrone'
-     DrawScale=1
      SoundRadius=24
      SoundVolume=92
      AmbientSound=Sound'DeusExSounds.Augmentation.AugDroneLoop'
      CollisionRadius=13.000000
      CollisionHeight=2.760000
+     bBlockPlayers=False
+     Mass=20.000000
      BindName="Drone"
-	 Mass=20
      FamiliarName="RADAR Drone"
      UnfamiliarName="RADAR Drone"
 }

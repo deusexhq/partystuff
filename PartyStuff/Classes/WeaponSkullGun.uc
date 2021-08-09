@@ -37,10 +37,10 @@ defaultproperties
      bCanHaveModAccurateRange=True
      bCanHaveModReloadTime=True
      bCanHaveModRecoilStrength=True
-     AmmoName=Class'AmmoSkull'
+     AmmoName=Class'PartyStuff.AmmoSkull'
      ReloadCount=17
      PickupAmmoCount=17
-     ProjectileClass=Class'SkullBolt'
+     ProjectileClass=Class'PartyStuff.SkullBolt'
      shakemag=0.000000
      FireSound=Sound'DeusExSounds.Weapons.PlasmaRifleFire'
      AltFireSound=Sound'DeusExSounds.Weapons.PlasmaRifleReloadEnd'

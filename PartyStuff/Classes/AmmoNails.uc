@@ -14,21 +14,21 @@ simulated function PreBeginPlay()
 
 defaultproperties
 {
-    bShowInfo=True
-    AmmoAmount=15
-    MaxAmmo=50
-    ItemName="Nails"
-    ItemArticle="some"
-    PickupViewMesh=LodMesh'DeusExItems.AmmoDart'
-    LandSound=Sound'DeusExSounds.Generic.PaperHit2'
-    Icon=Texture'DeusExUI.Icons.BeltIconAmmoDartsNormal'
-    largeIcon=Texture'DeusExUI.Icons.LargeIconAmmoDartsNormal'
-    largeIconWidth=20
-    largeIconHeight=47
-    Description="Specialy designed nails.Designed to pierce flesh more than wood!"
-    beltDescription="NAILS"
-    Mesh=LodMesh'DeusExItems.AmmoDart'
-    CollisionRadius=8.50
-    CollisionHeight=2.00
-    bCollideActors=True
+     bShowInfo=True
+     AmmoAmount=15
+     MaxAmmo=50
+     ItemName="Nails"
+     ItemArticle="some"
+     PickupViewMesh=LodMesh'DeusExItems.AmmoDart'
+     LandSound=Sound'DeusExSounds.Generic.PaperHit2'
+     Icon=Texture'DeusExUI.Icons.BeltIconAmmoDartsNormal'
+     largeIcon=Texture'DeusExUI.Icons.LargeIconAmmoDartsNormal'
+     largeIconWidth=20
+     largeIconHeight=47
+     Description="Specialy designed nails.Designed to pierce flesh more than wood!"
+     beltDescription="NAILS"
+     Mesh=LodMesh'DeusExItems.AmmoDart'
+     CollisionRadius=8.500000
+     CollisionHeight=2.000000
+     bCollideActors=True
 }

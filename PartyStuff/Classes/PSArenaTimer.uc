@@ -23,5 +23,4 @@ function Tick(float deltatime)
 
 defaultproperties
 {
-bHidden=True
 }

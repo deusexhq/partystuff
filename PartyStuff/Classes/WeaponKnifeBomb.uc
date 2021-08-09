@@ -49,8 +49,8 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-     AmmoName=Class'AmmoKB'
-     ProjectileClass=Class'KnifeBomb'
+     AmmoName=Class'PartyStuff.AmmoKB'
+     ProjectileClass=Class'PartyStuff.KnifeBomb'
      InventoryGroup=35
      ItemName="Knife Grenade"
      ItemArticle="a"

@@ -81,8 +81,8 @@ defaultproperties
 {
      fuseLength=1.000000
      proxRadius=128.000000
-     spawnWeaponClass=Class'WeaponDroneGrenade'
-     spawnAmmoClass=Class'AmmoDG'
+     spawnWeaponClass=Class'PartyStuff.WeaponDroneGrenade'
+     spawnAmmoClass=Class'PartyStuff.AmmoDG'
      ItemName="Drone Grenade"
      speed=1500.000000
      ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'

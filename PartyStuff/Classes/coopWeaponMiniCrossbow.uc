@@ -33,7 +33,7 @@ function Fire(float Value)
 
 defaultproperties
 {
-     InventoryGroup=954324
+     InventoryGroup=212
      ItemName="Rusted Mini-Crossbow"
      beltDescription="RUSTED CRSSBW"
 }

@@ -21,6 +21,5 @@ function Timer()
 
 defaultproperties
 {
-	CLim=5
-	bHidden=True
+     CLim=5
 }

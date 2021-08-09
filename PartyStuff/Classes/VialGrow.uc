@@ -37,7 +37,6 @@ defaultproperties
      bCanHaveMultipleCopies=True
      bActivatable=True
      ItemName="Grow Vial"
-     M_Activated=""
      ItemArticle="an"
      PlayerViewOffset=(X=30.000000,Z=-12.000000)
      PlayerViewMesh=LodMesh'DeusExItems.VialAmbrosia'
@@ -45,6 +44,7 @@ defaultproperties
      ThirdPersonMesh=LodMesh'DeusExItems.VialAmbrosia'
      LandSound=Sound'DeusExSounds.Generic.GlassHit1'
      Icon=Texture'DeusExUI.Icons.BeltIconVialAmbrosia'
+     M_Activated=""
      largeIcon=Texture'DeusExUI.Icons.LargeIconVialAmbrosia'
      largeIconWidth=18
      largeIconHeight=44

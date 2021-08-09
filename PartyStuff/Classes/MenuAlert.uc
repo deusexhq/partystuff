@@ -103,17 +103,15 @@ event bool RawKeyPressed(EInputKey key, EInputState iState, bool bRepeat)
 
 defaultproperties
 {
-	exitbuttontext="Exit"
-	passwordlabel="Password"
-	sendbuttontext="Send <Enter>"
-	commandlabel="Command"
-     ClientWidth=600//400
-     ClientHeight=150//250
+     exitbuttontext="Exit"
+     PasswordLabel="Password"
+     sendbuttontext="Send <Enter>"
+     commandlabel="Command"
+     ClientWidth=600
+     ClientHeight=150
      clientTextures(0)=Texture'DeusExUI.UserInterface.MenuMessageBoxBackground_1'
      clientTextures(1)=Texture'DeusExUI.UserInterface.MenuMessageBoxBackground_2'
      textureRows=3
      textureCols=2
-     bActionButtonBarActive=True
      bUsesHelpWindow=False
-     //winShadowClass=Class'DeusEx.MenuUIMessageBoxShadowWindow'
 }

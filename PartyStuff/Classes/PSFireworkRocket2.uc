@@ -67,7 +67,6 @@ simulated function Destroyed()
 
 defaultproperties
 {
-     mpDamage=0.000000
      mpBlastRadius=300.000000
      bExplodes=True
      blastRadius=128.000000
@@ -79,16 +78,15 @@ defaultproperties
      ItemArticle="a"
      speed=1000.000000
      MaxSpeed=1100.000000
-     Damage=0.000000
      MomentumTransfer=3000
-     ImpactSound=Sound'MediumExplosion1'
+     ImpactSound=Sound'DeusExSounds.Generic.MediumExplosion1'
      ExplosionDecal=Class'DeusEx.ScorchMark'
+     Style=STY_Modulated
+     Skin=FireTexture'Effects.Fire.flmethrwr_fire'
      Mesh=LodMesh'DeusExItems.PlasmaBolt'
-     Skin=texture'flmethrwr_fire'
      DrawScale=2.000000
      Fatness=88
      bUnlit=True
-     Style=STY_Modulated
      LightType=LT_Steady
      LightEffect=LE_NonIncidence
      LightBrightness=200

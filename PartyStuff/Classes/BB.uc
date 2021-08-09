@@ -85,29 +85,29 @@ simulated function Destroyed()
 
 defaultproperties
 {
-    mpDamage=5.00
-    mpBlastRadius=100.00
-    bExplodes=True
-    blastRadius=128.00
-    DamageType=Sabot
-    AccurateRange=14400
-    maxRange=24000
-    bIgnoresNanoDefense=True
-    ItemName="Energy Bolt"
-    ItemArticle="an"
-    speed=1500.00
-    MaxSpeed=1500.00
-    Damage=5.00
-    MomentumTransfer=5000
-    ImpactSound=Sound'DeusExSounds.Weapons.PlasmaRifleHit'
-    ExplosionDecal=Class'DeusEx.ScorchMark'
-    Texture=FireTexture'Effects.Laser.LaserBeam2'
-    Mesh=LodMesh'DeusExItems.Tracer'
-    DrawScale=3.00
-    bUnlit=True
-    LightBrightness=200
-    LightHue=80
-    LightSaturation=128
-    LightRadius=3
-    bFixedRotationDir=True
+     mpDamage=5.000000
+     mpBlastRadius=100.000000
+     bExplodes=True
+     blastRadius=128.000000
+     DamageType=Sabot
+     AccurateRange=14400
+     maxRange=24000
+     bIgnoresNanoDefense=True
+     ItemName="Energy Bolt"
+     ItemArticle="an"
+     speed=1500.000000
+     MaxSpeed=1500.000000
+     Damage=5.000000
+     MomentumTransfer=5000
+     ImpactSound=Sound'DeusExSounds.Weapons.PlasmaRifleHit'
+     ExplosionDecal=Class'DeusEx.ScorchMark'
+     Texture=FireTexture'Effects.Laser.LaserBeam2'
+     Mesh=LodMesh'DeusExItems.Tracer'
+     DrawScale=3.000000
+     bUnlit=True
+     LightBrightness=200
+     LightHue=80
+     LightSaturation=128
+     LightRadius=3
+     bFixedRotationDir=True
 }

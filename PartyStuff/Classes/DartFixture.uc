@@ -19,16 +19,16 @@ function BeginPlay()
 
 defaultproperties
 {
-     Mesh=LodMesh'DeusExItems.Biocell'
-     CollisionRadius=28.000000
-	 Drawscale=6
-     CollisionHeight=0.500000
+     bInvincible=True
+     bCanBeBase=True
      ItemName="Dart Fixture"
+     bPushable=False
+     bMovable=False
+     Mesh=LodMesh'DeusExItems.BioCell'
+     DrawScale=6.000000
      bUnlit=True
-	 bPushable=False
-	 bCanBeBase=True
-	 bMovable=False
-	 bInvincible=true
+     CollisionRadius=28.000000
+     CollisionHeight=0.500000
      LightEffect=LE_Disco
      LightBrightness=255
      LightSaturation=50

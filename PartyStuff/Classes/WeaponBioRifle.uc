@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'GrayShoot'
+     ProjectileClass=Class'PartyStuff.GrayShoot'
      InventoryGroup=111
      ItemName="|P2Bio Assault Gun"
      beltDescription="BIO"

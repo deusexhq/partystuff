@@ -21,5 +21,5 @@ defaultproperties
 {
      spreadTime=0.100000
      maxDrawScale=0.500000
-     Texture=Texture'gred'
+     Texture=Texture'PGAssets.Skins.gred'
 }

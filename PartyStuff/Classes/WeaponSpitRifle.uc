@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'GreaselShoot'
+     ProjectileClass=Class'PartyStuff.GreaselShoot'
      InventoryGroup=197
      ItemName="|P2Bio Spitter Gun"
      beltDescription="SPIT"

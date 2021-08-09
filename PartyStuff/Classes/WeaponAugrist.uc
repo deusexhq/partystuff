@@ -245,17 +245,16 @@ function CycleAmmo()
 
 defaultproperties
 {
-     InventoryGroup=111867
+     InventoryGroup=251
      ItemName="Augrist"
-	 ItemArticle="the"
      Description="A strange, ancient triad weapon. You would be hard pressed finding out anything else about it."
      beltDescription="AUGRIST"
      MultiSkins(1)=Texture'DeusExItems.Skins.PinkMaskTex'
-	 MultiSkins(2)=Texture'DeusExItems.Skins.PinkMaskTex'
-     MultiSkins(4)=Texture'wtf' //FireTexture'Effects.Electricity.Wepn_EMPG_SFX'
-     MultiSkins(5)=Texture'wtf' //FireTexture'Effects.Electricity.Wepn_EMPG_SFX'
-	 MultiSkins(6)=Texture'DeusExItems.Skins.PinkMaskTex'
-	 MultiSkins(7)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(2)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(4)=Texture'PGAssets.Skins.wtf'
+     MultiSkins(5)=Texture'PGAssets.Skins.wtf'
+     MultiSkins(6)=Texture'DeusExItems.Skins.PinkMaskTex'
+     MultiSkins(7)=Texture'DeusExItems.Skins.PinkMaskTex'
+     LightEffect=LE_NonIncidence
      LightHue=128
-     lighteffect=LE_nonincidence
 }

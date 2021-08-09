@@ -73,9 +73,8 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-     //bNew=True
      myMSG="DEFAULT MSG - REPORT AS BUG"
-     MSGSender="NO SENDER DATA"
+     msgsender="NO SENDER DATA"
      MSGTimestamp="NO:TIME"
      bInvincible=True
      ItemName="Player Created Message"

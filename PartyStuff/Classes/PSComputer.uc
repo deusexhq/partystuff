@@ -1394,16 +1394,16 @@ function Frob(actor frobber, inventory frobwith)
 
 defaultproperties
 {
-	InfoProp(0)="Health"
-	InfoProp(1)="Energy"
-	InfoProp(2)="ReducedDamageType"
-	InfoProp(3)="bAdmin"
-     ItemName="Personal Computer Terminal"
-     Mesh=LodMesh'DeusExDeco.ComputerPersonal'
-     Username="DEFAULT"
+     userName="DEFAULT"
      Password="DEFAULT"
+     InfoProp(0)="Health"
+     InfoProp(1)="Energy"
+     InfoProp(2)="ReducedDamageType"
+     InfoProp(3)="bAdmin"
+     bInvincible=True
+     ItemName="Personal Computer Terminal"
+     bPushable=False
+     Mesh=LodMesh'DeusExDeco.ComputerPersonal'
      CollisionRadius=36.000000
      CollisionHeight=7.400000
-     bPushable=False
-     bInvincible=True
 }

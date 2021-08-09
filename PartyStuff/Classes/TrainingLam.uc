@@ -145,7 +145,7 @@ defaultproperties
      fuseLength=3.000000
      proxRadius=128.000000
      blastRadius=384.000000
-     spawnWeaponClass=Class'WeaponTrainingLam'
+     spawnWeaponClass=Class'PartyStuff.WeaponTrainingLam'
      ItemName="Training Lightweight Attack Munition (TLAM)"
      speed=1000.000000
      MaxSpeed=1000.000000

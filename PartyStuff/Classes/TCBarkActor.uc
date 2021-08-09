@@ -36,8 +36,6 @@ function timer()
 
 defaultproperties
 {
-	bHidden=True
-	RemoteRole=2
-    NetPriority=1.50
-    Lifespan=1
+     LifeSpan=1.000000
+     NetPriority=1.500000
 }

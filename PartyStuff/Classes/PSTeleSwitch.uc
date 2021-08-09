@@ -172,6 +172,7 @@ function DoTP(DeusExPlayer DXP)
 		
 	}
 }
+
 defaultproperties
 {
      ItemName="Teleporter"

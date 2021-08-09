@@ -68,7 +68,7 @@ defaultproperties
      mpBlastRadius=255.000000
      bExplodes=True
      blastRadius=128.000000
-     DamageType=Exploded
+     DamageType=exploded
      AccurateRange=14400
      maxRange=24000
      bIgnoresNanoDefense=True

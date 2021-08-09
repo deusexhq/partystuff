@@ -50,16 +50,16 @@ local ParticleGenerator ToxicDrip;
 
 defaultproperties
 {
-	bParticlesUnlit=True
-	bTranslucent=True
-	particleDrawScale=0.05
-	checkTime=0.25
-	frequency=0.8
-	riseRate=5.0
-	ejectSpeed=10.0
-	particleLifeSpan=2.0
-	bRandomEject=True
-	numPerSpawn=2
-	particleTexture=FireTexture'Effects.Smoke.SmokePuff1'
-    bHidden=True
+     bParticlesUnlit=True
+     bTranslucent=True
+     particleDrawScale=0.050000
+     checkTime=0.250000
+     Frequency=0.800000
+     RiseRate=5.000000
+     ejectSpeed=10.000000
+     particleLifeSpan=2.000000
+     bRandomEject=True
+     numPerSpawn=2.000000
+     particleTexture=FireTexture'Effects.Smoke.SmokePuff1'
+     bHidden=True
 }

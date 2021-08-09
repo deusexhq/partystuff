@@ -55,7 +55,7 @@ defaultproperties
      AmmoName=Class'DeusEx.AmmoNone'
      ReloadCount=0
      FireOffset=(X=28.000000,Y=12.000000,Z=4.000000)
-     ProjectileClass=Class'BFG'
+     ProjectileClass=Class'PartyStuff.BFG'
      shakemag=500.000000
      FireSound=Sound'DeusExSounds.Weapons.LAWFire'
      SelectSound=Sound'DeusExSounds.Weapons.LAWSelect'

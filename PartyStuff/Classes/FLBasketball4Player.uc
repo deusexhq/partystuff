@@ -16,7 +16,7 @@ defaultproperties
 {
      bInvincible=True
      ItemName="Basketball"
-     Mesh=LodMesh'FLBasketball'
+     Mesh=LodMesh'PGAssets.FLBasketball'
      DrawScale=0.710000
      CollisionRadius=10.000000
      CollisionHeight=10.000000

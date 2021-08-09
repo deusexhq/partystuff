@@ -665,7 +665,7 @@ function bool IsImmobile()
 
 defaultproperties
 {
-	dPitch=62
+     dPitch=62.000000
      EMPHitPoints=50
      explosionSound=Sound'DeusExSounds.Robot.RobotExplode'
      Saymsg="<NO CONVERSATION WANTED, PLEASE MOVE ALONG>"

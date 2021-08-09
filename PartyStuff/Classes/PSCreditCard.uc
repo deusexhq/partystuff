@@ -137,7 +137,7 @@ function Tick(float deltatime)
 defaultproperties
 {
      Mode=10
-     AmmoName=Class'AmmoCredits'
+     AmmoName=Class'PartyStuff.AmmoCredits'
      ReloadCount=1
      PickupAmmoCount=120
      InventoryGroup=80

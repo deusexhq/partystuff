@@ -9,8 +9,8 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'LB2'
-     InventoryGroup=132643
+     ProjectileClass=Class'PartyStuff.LB2'
+     InventoryGroup=35
      ItemName="Light Beam Rifle"
      beltDescription="BEAM"
      Mass=1.000000

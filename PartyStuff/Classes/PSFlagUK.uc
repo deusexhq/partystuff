@@ -5,11 +5,11 @@ class PSFlagUK extends DeusExDecoration;
 
 defaultproperties
 {
-	bPushable=False
-	bInvincible=True
+     bInvincible=True
      FragType=Class'DeusEx.WoodFragment'
      ItemName="Flag Pole"
-	 Skin=Texture'FlagPoleTex8'
+     bPushable=False
+     Skin=Texture'PGAssets.Skins.flagpoletex8'
      Mesh=LodMesh'DeusExDeco.FlagPole'
      CollisionRadius=17.000000
      CollisionHeight=56.389999

@@ -68,22 +68,22 @@ simulated function DrawExplosionEffects(vector HitLocation, vector HitNormal)
 
 defaultproperties
 {
-    shaketime=3.00
-    shakeRollMagnitude=512.00
-    shakeVertMagnitude=48.00
-    blastRadius=1024.00
-    bTracking=False
-    ItemName="Big Fucking Blast"
-    speed=500.00
-    MaxSpeed=1000.00
-    SpawnSound=None
-    ImpactSound=None
-    DrawType=dt_sprite
-    Style=sty_modulated
-    Texture=Texture'PGAssets.Skins.SkyBlueRay'
-    Mesh=None
-    DrawScale=5.00
-    SoundRadius=0
-    SoundVolume=0
-    AmbientSound=None
+     shaketime=3.000000
+     shakeRollMagnitude=512.000000
+     shakeVertMagnitude=48.000000
+     blastRadius=1024.000000
+     bTracking=False
+     ItemName="Big Fucking Blast"
+     speed=500.000000
+     MaxSpeed=1000.000000
+     SpawnSound=None
+     ImpactSound=None
+     DrawType=DT_Sprite
+     Style=STY_Modulated
+     Texture=Texture'PGAssets.Skins.SkyBlueRay'
+     Mesh=None
+     DrawScale=5.000000
+     SoundRadius=0
+     SoundVolume=0
+     AmbientSound=None
 }

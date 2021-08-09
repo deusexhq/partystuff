@@ -110,5 +110,4 @@ local int j, c;
 
 defaultproperties
 {
-	bHidden=True
 }

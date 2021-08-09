@@ -22,14 +22,13 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
+     PTurretTeam="DEFAULT"
+     bCanBeBase=True
      ItemName="Turret Dominator"
-	 bCanbeBase=True
+     bPushable=False
      Texture=Texture'DeusExItems.Skins.DataCubeTex2'
      Mesh=LodMesh'DeusExItems.DataCube'
      CollisionRadius=7.000000
      CollisionHeight=1.270000
-     Mass=2.000000
      Mass=10.000000
-	 bPushable=False
-	 	PTurretTeam="DEFAULT"
 }

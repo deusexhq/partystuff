@@ -8,6 +8,6 @@ simulated function Tick(float DeltaTime)
 
 defaultproperties
 {
-    ItemName="a"
-    ItemArticle="surf knife"
+     ItemName="a"
+     ItemArticle="surf knife"
 }

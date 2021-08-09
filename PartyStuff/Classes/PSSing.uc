@@ -105,5 +105,4 @@ function Explode()
 
 defaultproperties
 {
-     bHidden=True
 }

@@ -41,10 +41,9 @@ Function Tick(float Deltatime)
 
 defaultproperties
 {
-    SpazDelay=0.00
-    DamageType=Stunned
-    Damage=0.00
-    Sprite=WetTexture'Effects.Smoke.Gas_Poison_A'
-    Texture=WetTexture'Effects.Smoke.Gas_Poison_A'
-    Skin=WetTexture'Effects.Smoke.Gas_Poison_A'
+     DamageType=Stunned
+     Damage=0.000000
+     Sprite=WetTexture'Effects.Smoke.Gas_Poison_A'
+     Texture=WetTexture'Effects.Smoke.Gas_Poison_A'
+     Skin=WetTexture'Effects.Smoke.Gas_Poison_A'
 }

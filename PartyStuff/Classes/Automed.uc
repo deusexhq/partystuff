@@ -230,25 +230,25 @@ simulated function bool TestMPBeltSpot(int BeltSpot)
 
 defaultproperties
 {
-    maxCopies=1
-    bCanHaveMultipleCopies=True
-    bActivatable=True
-    ItemName="Automed"
-    PlayerViewOffset=(X=30.00,Y=0.00,Z=-12.00),
-    PlayerViewMesh=LodMesh'DeusExItems.Credits'
-    PickupViewMesh=LodMesh'DeusExItems.Credits'
-    ThirdPersonMesh=LodMesh'DeusExItems.Credits'
-    LandSound=Sound'DeusExSounds.Generic.PlasticHit1'
-    Icon=Texture'DeusExUI.UserInterface.AugIconHealing'
-    M_Activated=""
-    largeIconWidth=35
-    largeIconHeight=49
-    Description="s"
-    beltDescription="AUTOMED"
-    Mesh=LodMesh'DeusExItems.Credits'
-    MultiSkins=Texture'DeusExUI.UserInterface.AugIconHealing_Small'
-    CollisionRadius=7.00
-    CollisionHeight=0.55
-    Mass=10.00
-    Buoyancy=100.00
+     maxCopies=1
+     bCanHaveMultipleCopies=True
+     bActivatable=True
+     ItemName="Automed"
+     PlayerViewOffset=(X=30.000000,Z=-12.000000)
+     PlayerViewMesh=LodMesh'DeusExItems.Credits'
+     PickupViewMesh=LodMesh'DeusExItems.Credits'
+     ThirdPersonMesh=LodMesh'DeusExItems.Credits'
+     LandSound=Sound'DeusExSounds.Generic.PlasticHit1'
+     Icon=Texture'DeusExUI.UserInterface.AugIconHealing'
+     M_Activated=""
+     largeIconWidth=35
+     largeIconHeight=49
+     Description="s"
+     beltDescription="AUTOMED"
+     Mesh=LodMesh'DeusExItems.Credits'
+     MultiSkins(0)=Texture'DeusExUI.UserInterface.AugIconHealing_Small'
+     CollisionRadius=7.000000
+     CollisionHeight=0.550000
+     Mass=10.000000
+     Buoyancy=100.000000
 }

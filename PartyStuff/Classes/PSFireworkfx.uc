@@ -26,7 +26,6 @@ defaultproperties
      bIgnoresNanoDefense=True
      speed=600.000000
      MaxSpeed=800.000000
-     Damage=0.000000
      MomentumTransfer=400
      Style=STY_Translucent
      Mesh=LodMesh'DeusExItems.GreaselSpit'

@@ -2,5 +2,5 @@ class AmmoPoisonKnife extends AmmoShuriken;
 
 defaultproperties
 {
-    ItemName="Poisoned Throwing Knives"
+     ItemName="Poisoned Throwing Knives"
 }

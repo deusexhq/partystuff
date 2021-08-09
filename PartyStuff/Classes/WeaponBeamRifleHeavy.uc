@@ -9,10 +9,9 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'LB3'
-     InventoryGroup=132346
+     ProjectileClass=Class'PartyStuff.LB3'
+     InventoryGroup=250
      ItemName="Heavy Beam Rifle"
-     beltDescription="BEAM"
      PlayerViewOffset=(X=46.000000,Y=-22.000000,Z=-10.000000)
      PlayerViewMesh=LodMesh'DeusExItems.GEPGun'
      PickupViewMesh=LodMesh'DeusExItems.GEPGunPickup'
@@ -23,5 +22,5 @@ defaultproperties
      largeIconWidth=203
      largeIconHeight=77
      invSlotsX=4
-     invSlotsY=2
+     beltDescription="BEAM"
 }

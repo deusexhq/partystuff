@@ -394,9 +394,9 @@ function UnLockPlayerCam(deusexplayer dxp)
 
 defaultproperties
 {
+     DroneAmmo=30
      GoverningSkill=Class'DeusEx.SkillWeaponPistol'
      NoiseLevel=0.010000
-     droneAmmo=30
      ShotTime=0.150000
      reloadTime=1.500000
      HitDamage=0
@@ -410,9 +410,6 @@ defaultproperties
      mpBaseAccuracy=0.200000
      mpAccurateRange=120000
      mpMaxRange=120000
-	// ReloadCount=1
-	// PickupAmmoCount=30
-	// AmmoName=Class'PartyStuff.AmmoDrone'
      bCanHaveModBaseAccuracy=True
      bCanHaveModReloadCount=True
      bCanHaveModAccurateRange=True
@@ -424,7 +421,7 @@ defaultproperties
      AltFireSound=Sound'DeusExSounds.Weapons.StealthPistolReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.StealthPistolReload'
      SelectSound=Sound'DeusExSounds.Weapons.StealthPistolSelect'
-     InventoryGroup=1287663
+     InventoryGroup=239
      ItemName="Radar Drone Controller"
      PlayerViewOffset=(X=24.000000,Y=-10.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.StealthPistol'

@@ -2,9 +2,9 @@ class GlassShard extends CraftingMaterial;
 
 defaultproperties
 {
-	DispStr="[Ingredient] Required for Estus"
-	bIngredient=True
-	CollisionRadius=10
-	ItemName="Glass Shard"
-	beltDescription="Glass"
+     DispStr="[Ingredient] Required for Estus"
+     bIngredient=True
+     ItemName="Glass Shard"
+     beltDescription="Glass"
+     CollisionRadius=10.000000
 }

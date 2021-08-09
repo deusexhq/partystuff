@@ -43,6 +43,8 @@ class PGAssets extends Actor;
 #exec AUDIO IMPORT FILE="Sounds\major_fracture.wav" NAME="major_fracture" GROUP="Generic"
 #exec AUDIO IMPORT FILE="Sounds\near_death.wav" NAME="near_death" GROUP="Generic"
 
+#exec AUDIO IMPORT FILE="Sounds\kiss.wav" NAME="kiss" GROUP="Generic"
+
 #exec TEXTURE IMPORT NAME="iMed" FILE="Textures\iMed.bmp" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="acrate" FILE="Textures\acrate.bmp" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="Hellhound" FILE="Textures\HellhoundTex2.pcx" GROUP="Skins"
@@ -73,6 +75,7 @@ class PGAssets extends Actor;
 #exec TEXTURE IMPORT NAME="IceTex" FILE="Textures\IceTex.pcx" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="YellowRay" FILE="Textures\YellowRay.pcx" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="SkyBlueRay" FILE="Textures\SkyBlueRay.pcx" GROUP="Skins"
+#exec TEXTURE IMPORT NAME="federalpink" FILE="Textures\federalpink.pcx" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="BlueRay" FILE="Textures\BlueRay.pcx" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="wKai1" FILE="Textures\wKai1.pcx" GROUP="Skins"
 #exec TEXTURE IMPORT NAME="wKai2" FILE="Textures\wKai2.pcx" GROUP="Skins"

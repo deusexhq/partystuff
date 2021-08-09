@@ -131,20 +131,15 @@ event bool RawKeyPressed(EInputKey key, EInputState iState, bool bRepeat)
 	}
 }
 
-
 defaultproperties
 {
-	exitbuttontext="Exit"
-	passwordlabel="Password"
-	sendbuttontext="Send <Enter>"
-	commandlabel="Command"
-     ClientWidth=300//400
-     ClientHeight=75//250
-   //  clientTextures(0)=Texture'DeusExUI.UserInterface.MenuMessageBoxBackground_1'
-    // clientTextures(1)=Texture'DeusExUI.UserInterface.MenuMessageBoxBackground_2'
+     exitbuttontext="Exit"
+     PasswordLabel="Password"
+     sendbuttontext="Send <Enter>"
+     commandlabel="Command"
+     ClientWidth=300
+     ClientHeight=75
      textureRows=3
      textureCols=2
-     bActionButtonBarActive=True
      bUsesHelpWindow=False
-    // winShadowClass=Class'DeusEx.MenuUIMessageBoxShadowWindow'
 }

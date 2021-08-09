@@ -102,7 +102,7 @@ defaultproperties
      blastRadius=1.000000
      AccurateRange=100
      maxRange=100
-     maxDrawScale=5.000000
+     maxDrawScale=2.000000
      bIgnoresNanoDefense=True
      ItemName="Cloud"
      ItemArticle="a"
@@ -112,11 +112,9 @@ defaultproperties
      LifeSpan=1.000000
      DrawType=DT_Sprite
      Style=STY_Translucent
-     Texture=None
+     Texture=WetTexture'Effects.Smoke.Gas_Tear_A'
      DrawScale=0.010000
      bUnlit=True
      CollisionRadius=16.000000
      CollisionHeight=16.000000
-          maxDrawScale=2.000000
-     Texture=WetTexture'Effects.Smoke.Gas_Tear_A'
 }

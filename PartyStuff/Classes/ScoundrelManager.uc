@@ -116,11 +116,4 @@ bSelectionProcess=True;
 
 defaultproperties
 {
-	ScoundrelClass=class'Scoundrel'
 }
-
-
-
-
-
-

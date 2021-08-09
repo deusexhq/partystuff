@@ -56,7 +56,7 @@ defaultproperties
      ReloadCount=6
      PickupAmmoCount=6
      FireOffset=(X=-20.000000,Y=2.000000,Z=30.000000)
-     ProjectileClass=Class'FreezeBolt'
+     ProjectileClass=Class'PartyStuff.FreezeBolt'
      shakemag=50.000000
      FireSound=Sound'DeusExSounds.Weapons.RifleFire'
      AltFireSound=Sound'DeusExSounds.Weapons.RifleReloadEnd'

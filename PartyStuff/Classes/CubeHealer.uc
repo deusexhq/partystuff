@@ -130,16 +130,15 @@ function HealPlayer2(deusexplayer player, int baseHealPoints, optional Bool bUse
 
 defaultproperties
 {
-    ItemName="Cube of Healing"
-    bPushable=False
-    Physics=5
-    Texture=FireTexture'Effects.Electricity.Nano_SFX_A'
-    Skin=FireTexture'Effects.Electricity.Nano_SFX_A'
-    DrawScale=1.50
-    CollisionRadius=60.00
-    CollisionHeight=60.00
-    bFixedRotationDir=True
-    Mass=500.00
-    Physics=PHYS_Rotating
-    RotationRate=(Pitch=11192,Yaw=11192,Roll=11192),
+     ItemName="Cube of Healing"
+     bPushable=False
+     Physics=PHYS_Rotating
+     Texture=FireTexture'Effects.Electricity.Nano_SFX_A'
+     Skin=FireTexture'Effects.Electricity.Nano_SFX_A'
+     DrawScale=1.500000
+     CollisionRadius=60.000000
+     CollisionHeight=60.000000
+     bFixedRotationDir=True
+     Mass=500.000000
+     RotationRate=(Pitch=11192,Yaw=11192,Roll=11192)
 }

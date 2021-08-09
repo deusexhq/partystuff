@@ -68,5 +68,5 @@ function bool ValidProjectile(DeusExProjectile proj)
 
 defaultproperties
 {
-	bHidden=True
+     bHidden=True
 }

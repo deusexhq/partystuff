@@ -109,7 +109,7 @@ defaultproperties
      bCanHaveModReloadTime=True
      bCanHaveModRecoilStrength=True
      ReloadCount=0
-     ProjectileClass=Class'PBeam'
+     ProjectileClass=Class'PartyStuff.PBeam'
      shakemag=50.000000
      FireSound=Sound'DeusExSounds.Weapons.PlasmaRifleFire'
      AltFireSound=Sound'DeusExSounds.Weapons.PlasmaRifleReloadEnd'

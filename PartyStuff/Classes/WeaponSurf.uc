@@ -108,19 +108,19 @@ defaultproperties
      AccurateRange=2400
      BaseAccuracy=1.000000
      bHasMuzzleFlash=False
+     bHandToHand=True
      bUseAsDrawnWeapon=False
-     bNeedToSetMPPickupAmmo=False //was false
-	 bHandToHand=True
+     bNeedToSetMPPickupAmmo=False
      mpReloadTime=0.100000
      mpHitDamage=50
      mpBaseAccuracy=1.000000
      mpAccurateRange=2400
      mpMaxRange=2400
      FireOffset=(Y=10.000000,Z=20.000000)
-     ProjectileClass=Class'SurfRocket'
+     ProjectileClass=Class'PartyStuff.SurfRocket'
      shakemag=50.000000
      SelectSound=Sound'DeusExSounds.Weapons.LAMSelect'
-     InventoryGroup=7712
+     InventoryGroup=32
      ItemName="Suicide Bomber"
      PlayerViewOffset=(X=24.000000,Y=-15.000000,Z=-17.000000)
      PlayerViewMesh=LodMesh'DeusExItems.LAM'

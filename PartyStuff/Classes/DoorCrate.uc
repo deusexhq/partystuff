@@ -62,12 +62,12 @@ function Tick(float deltatime)
 
 defaultproperties
 {
+     bBlockFrob=True
      bInvincible=True
      bFlammable=False
-     bMovable=False
-     bPushable=False
-     bBlockFrob=True
      ItemName="Metal Door Crate"
+     bPushable=False
+     bMovable=False
      bBlockSight=True
      Mesh=LodMesh'DeusExDeco.CrateUnbreakableLarge'
      CollisionRadius=56.500000

@@ -149,7 +149,7 @@ defaultproperties
      fuseLength=0.000000
      proxRadius=0.000000
      blastRadius=256.000000
-     spawnWeaponClass=Class'WeaponTripBombEMP'
+     spawnWeaponClass=Class'PartyStuff.WeaponTripBombEMP'
      ItemName="Laser EMP"
      speed=1000.000000
      MaxSpeed=1000.000000

@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'LB'
+     ProjectileClass=Class'PartyStuff.LB'
      InventoryGroup=132
      ItemName="|P2Charged Laser Rifle"
      beltDescription="LASER"

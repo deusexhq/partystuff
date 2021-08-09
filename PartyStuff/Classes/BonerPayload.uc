@@ -90,8 +90,7 @@ defaultproperties
 {
      bInvincible=True
      bHighlight=False
-	 bMovable=True
-	 bCanBeBase=True
+     bCanBeBase=True
      Physics=PHYS_None
      DrawType=DT_Sprite
      Style=STY_Translucent
@@ -100,5 +99,4 @@ defaultproperties
      Skin=FireTexture'Effects.Laser.LaserSpot1'
      CollisionRadius=5.200001
      CollisionHeight=5.000000
-     bBlockPlayers=True
 }

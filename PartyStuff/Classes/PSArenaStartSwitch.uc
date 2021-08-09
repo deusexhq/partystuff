@@ -30,6 +30,6 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-	bPSActive=True
+     bPSActive=True
      ItemName="Begin the battle!"
 }

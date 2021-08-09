@@ -31,5 +31,5 @@ local int j;
 
 defaultproperties
 {
-bHidden=True
+     bHidden=True
 }

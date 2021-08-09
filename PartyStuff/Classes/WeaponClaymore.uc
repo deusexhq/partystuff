@@ -85,18 +85,18 @@ defaultproperties
      bHasMuzzleFlash=False
      bHandToHand=True
      bUseAsDrawnWeapon=False
-     bNeedToSetMPPickupAmmo=False //was false
+     bNeedToSetMPPickupAmmo=False
      mpReloadTime=0.100000
      mpHitDamage=50
      mpBaseAccuracy=1.000000
      mpAccurateRange=2400
      mpMaxRange=2400
-     AmmoName=Class'AmmoClaymore'
+     mpPickupAmmoCount=6
+     AmmoName=Class'PartyStuff.AmmoClaymore'
      ReloadCount=1
      PickupAmmoCount=6
-	 mpPickupAmmoCount=6
      FireOffset=(Y=10.000000,Z=20.000000)
-     ProjectileClass=Class'ClaymoreProj'
+     ProjectileClass=Class'PartyStuff.ClaymoreProj'
      shakemag=50.000000
      SelectSound=Sound'DeusExSounds.Weapons.LAMSelect'
      InventoryGroup=77

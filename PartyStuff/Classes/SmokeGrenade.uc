@@ -90,7 +90,7 @@ defaultproperties
      bBlood=False
      bDebris=False
      DamageType=TearGas
-     spawnWeaponClass=Class'WeaponSmokeGrenade'
+     spawnWeaponClass=Class'PartyStuff.WeaponSmokeGrenade'
      ItemName="Gas Grenade"
      speed=1000.000000
      MaxSpeed=1000.000000

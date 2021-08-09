@@ -43,16 +43,16 @@ function bool OtherRequirements()
 
 defaultproperties
 {
-	DispStr="Requires 1x Catalyst, 5x Glass Shard, 5x Medkit to make Estus"
-	NumNeeded=1
-    CollisionRadius=4.20
-    CollisionHeight=7.45
-    Mesh=LodMesh'DeusExDeco.Flask'
+     InvResult=Class'PartyStuff.Estus'
+     NumNeeded=1
+     DispStr="Requires 1x Catalyst, 5x Glass Shard, 5x Medkit to make Estus"
+     ItemName="Estus Catalyst"
      PlayerViewMesh=LodMesh'DeusExDeco.Flask'
      PickupViewMesh=LodMesh'DeusExDeco.Flask'
      ThirdPersonMesh=LodMesh'DeusExDeco.Flask'
-	ItemName="Estus Catalyst"
-	InvResult=class'Estus'
-	beltDescription="CATALYST"
-	Icon=Texture'BeltIconCraftingFlask'
+     Icon=Texture'PGAssets.Icons.BeltIconCraftingFlask'
+     beltDescription="CATALYST"
+     Mesh=LodMesh'DeusExDeco.Flask'
+     CollisionRadius=4.200000
+     CollisionHeight=7.450000
 }

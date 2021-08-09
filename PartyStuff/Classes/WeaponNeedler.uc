@@ -9,7 +9,7 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'Dart'
+     ProjectileClass=Class'DeusEx.Dart'
      InventoryGroup=217
      ItemName="|P1Needle Gun"
      beltDescription="NEEDLE"

@@ -110,8 +110,8 @@ function bool Cooled()
 
 defaultproperties
 {
-	baseNum=1
      Cooldown=5.000000
+     baseNum=1
      bInvincible=True
      ItemName="Chain Teleporter"
      bPushable=False

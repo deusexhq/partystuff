@@ -5,7 +5,7 @@ class WeaponTravelGun extends WeaponGEPGun;
 
 defaultproperties
 {
-     ProjectileClass=Class'TRocket'
+     ProjectileClass=Class'PartyStuff.TRocket'
      InventoryGroup=182
      ItemName="Travel Weapon"
      Description="Blablabla takes people to places blablabla."

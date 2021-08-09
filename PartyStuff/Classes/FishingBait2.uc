@@ -33,7 +33,7 @@ function PingCatch()
 
 defaultproperties
 {
-	 bFloating=True
+     bFloating=True
      ItemName="Fishing Bait"
      bBlockSight=True
      Skin=FireTexture'Effects.liquid.Virus_SFX'

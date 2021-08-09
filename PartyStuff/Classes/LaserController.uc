@@ -158,7 +158,7 @@ defaultproperties
      AltFireSound=Sound'DeusExSounds.Weapons.StealthPistolReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.StealthPistolReload'
      SelectSound=Sound'DeusExSounds.Weapons.StealthPistolSelect'
-     InventoryGroup=1288765
+     InventoryGroup=61
      ItemName="Laser Controller Gun"
      PlayerViewOffset=(X=24.000000,Y=-10.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.StealthPistol'

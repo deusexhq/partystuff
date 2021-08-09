@@ -81,8 +81,8 @@ defaultproperties
 {
      fuseLength=1.000000
      proxRadius=128.000000
-     spawnWeaponClass=Class'WeaponLightshow'
-     spawnAmmoClass=Class'AmmoLS'
+     spawnWeaponClass=Class'PartyStuff.WeaponLightshow'
+     spawnAmmoClass=Class'PartyStuff.AmmoLS'
      ItemName="Lightshow"
      speed=1500.000000
      ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'

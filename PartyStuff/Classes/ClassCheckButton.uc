@@ -123,13 +123,9 @@ function Frob(Actor Frobber, Inventory frobWith)
 
 defaultproperties
 {
-     bInvincible=True
      ItemName="Checker Switch"
-     bPushable=False
-     Physics=PHYS_None
      Mesh=LodMesh'DeusExDeco.Switch1'
      CollisionRadius=2.630000
      CollisionHeight=2.970000
      Mass=10.000000
-     Buoyancy=12.000000
 }

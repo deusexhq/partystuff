@@ -104,7 +104,7 @@ defaultproperties
      MultiSkins(1)=Texture'Effects.Corona.Corona_D'
      MultiSkins(2)=FireTexture'Effects.liquid.ambrosia_SFX'
      MultiSkins(4)=FireTexture'Effects.Fire.flmethrwr_flme'
-	  MultiSkins(5)=Texture'Effects.Corona.Corona_D'
-	MultiSkins(6)=Texture'Effects.Corona.Corona_D'
+     MultiSkins(5)=Texture'Effects.Corona.Corona_D'
+     MultiSkins(6)=Texture'Effects.Corona.Corona_D'
      LightHue=40
 }

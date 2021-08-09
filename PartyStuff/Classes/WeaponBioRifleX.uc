@@ -9,10 +9,10 @@ defaultproperties
 {
      HitDamage=8
      bInstantHit=False
-     ProjectileClass=Class'GrayShoot'
+     ProjectileClass=Class'PartyStuff.GrayShoot'
      InventoryGroup=111
-     ThirdPersonMesh=None
      ItemName="|P2Bio Assault Gun"
+     ThirdPersonMesh=None
      beltDescription="BIO"
      Mass=1.000000
 }

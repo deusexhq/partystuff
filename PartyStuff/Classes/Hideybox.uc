@@ -112,8 +112,8 @@ local HideyBoxItem h;
 
 defaultproperties
 {
-    bFixWeapons=True
-    bActive=True
-    bInvincible=True
-    bPushable=False
+     bFixWeapons=True
+     bActive=True
+     bInvincible=True
+     bPushable=False
 }

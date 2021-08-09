@@ -37,6 +37,5 @@ function Timer()
 
 defaultproperties
 {
-RepeaterTimes=5
+     RepeaterTimes=5
 }
-

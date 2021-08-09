@@ -41,3 +41,7 @@ local actor a;
 					DXP.ClientMessage("Sequence accepted.");
 			}
 }
+
+defaultproperties
+{
+}

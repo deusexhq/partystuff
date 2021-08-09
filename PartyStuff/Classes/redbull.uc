@@ -5,7 +5,6 @@ defaultproperties
      rechargeAmount=100
      ItemName="Red Bull"
      ItemArticle="a can of"
-     PlayerViewOffset=(X=30.000000,Z=-12.000000)
      PlayerViewMesh=LodMesh'DeusExItems.Sodacan'
      PlayerViewScale=1.200000
      PickupViewMesh=LodMesh'DeusExItems.Sodacan'
@@ -17,12 +16,11 @@ defaultproperties
      largeIconWidth=42
      largeIconHeight=46
      beltDescription="REDBULL"
-     Mass=3.000000
-     Buoyancy=4.000000
+     Skin=Texture'PGAssets.Skins.RedBullTex1'
+     Mesh=LodMesh'DeusExItems.Sodacan'
      DrawScale=1.200000
-  Mesh=LodMesh'DeusExItems.Sodacan'
-  CollisionRadius=3.00000
-  CollisionHeight=4.50000
-  Skin=Texture'RedBullTex1'
-  MultiSkins(0)=Texture'RedBullTex1'
+     MultiSkins(0)=Texture'PGAssets.Skins.RedBullTex1'
+     CollisionRadius=3.000000
+     CollisionHeight=4.500000
+     Mass=3.000000
 }

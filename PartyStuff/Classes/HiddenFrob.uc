@@ -32,9 +32,8 @@ defaultproperties
      bInvincible=True
      ItemName="???"
      bPushable=False
-	 bMovable=False
+     bMovable=False
      Physics=PHYS_None
-     DrawType=DT_Mesh
      Style=STY_Translucent
      Sprite=Texture'DeusExUI.UserInterface.LogIcon'
      Texture=Texture'DeusExUI.UserInterface.LogIcon'

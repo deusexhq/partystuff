@@ -49,7 +49,6 @@ defaultproperties
      DamageType=shot
      AccurateRange=640
      maxRange=1280
-     //spawnWeaponClass=Class'MomsKnife'
      bIgnoresNanoDefense=True
      ItemName="Knife"
      ItemArticle="Mom's"

@@ -110,20 +110,20 @@ simulated function BeginPlay()
 
 defaultproperties
 {
-    bDisabled=True
-    bExplodes=False
-    bBlood=False
-    bEmitDanger=False
-    bIgnoresNanoDefense=True
-    ItemName="Basketball"
-    LifeSpan=0.00
-    bDirectional=False
-    Mesh=LodMesh'FLBasketball'
-    DrawScale=0.71
-    CollisionRadius=10.00
-    CollisionHeight=10.00
-    bBlockActors=True
-    bBlockPlayers=True
-    Mass=8.00
-    Buoyancy=10.00
+     bDisabled=True
+     bExplodes=False
+     bBlood=False
+     bEmitDanger=False
+     bIgnoresNanoDefense=True
+     ItemName="Basketball"
+     LifeSpan=0.000000
+     bDirectional=False
+     Mesh=LodMesh'PGAssets.FLBasketball'
+     DrawScale=0.710000
+     CollisionRadius=10.000000
+     CollisionHeight=10.000000
+     bBlockActors=True
+     bBlockPlayers=True
+     Mass=8.000000
+     Buoyancy=10.000000
 }

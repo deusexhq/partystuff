@@ -117,7 +117,7 @@ defaultproperties
      mpAccurateRange=640
      mpMaxRange=640
      FireOffset=(X=-10.000000,Y=14.000000,Z=22.000000)
-     ProjectileClass=Class'SurfKnives'
+     ProjectileClass=Class'PartyStuff.SurfKnives'
      shakemag=5.000000
      InventoryGroup=12
      ItemName="Surfin' Knives"

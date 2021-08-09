@@ -38,7 +38,6 @@ player.ConsoleCommand("Set LevelInfo Song None");
 player.PlayMusic(songName, songSection);
 }
 
-
 defaultproperties
 {
 }

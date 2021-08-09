@@ -28,3 +28,7 @@ function Tick(float v)
 		Destroy();
 	
 }
+
+defaultproperties
+{
+}

@@ -1,10 +1,8 @@
 class cheesesandwich extends sandwich;
 
-
 defaultproperties
 {
-     beltDescription="CHSE.SDWCH"
-     rechargeAmount=30
      ItemName="Cheese Sandwich"
-  MultiSkins(1)=Texture'CheeseTex1'
+     beltDescription="CHSE.SDWCH"
+     MultiSkins(1)=Texture'PGAssets.Skins.CheeseTex1'
 }

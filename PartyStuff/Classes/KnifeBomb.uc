@@ -164,8 +164,8 @@ defaultproperties
 {
      fuseLength=1.000000
      proxRadius=128.000000
-     spawnWeaponClass=Class'WeaponKnifeBomb'
-     spawnAmmoClass=Class'AmmoKB'
+     spawnWeaponClass=Class'PartyStuff.WeaponKnifeBomb'
+     spawnAmmoClass=Class'PartyStuff.AmmoKB'
      ItemName="Knife Bomb"
      speed=1500.000000
      ImpactSound=Sound'DeusExSounds.Generic.SmallExplosion2'

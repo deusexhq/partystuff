@@ -106,10 +106,10 @@ function SetSkin()
 
 defaultproperties
 {
-	bPushable=False
-	bInvincible=True
+     bInvincible=True
      FragType=Class'DeusEx.WoodFragment'
      ItemName="Flag Pole"
+     bPushable=False
      Mesh=LodMesh'DeusExDeco.FlagPole'
      CollisionRadius=17.000000
      CollisionHeight=56.389999

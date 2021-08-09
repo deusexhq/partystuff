@@ -104,10 +104,10 @@ function Destroyed()
 
 defaultproperties
 {
-     InventoryGroup=1478564
+     TorchRadius=7.000000
+     TorchBrightness=70.000000
+     bHasLaser=True
+     InventoryGroup=164
      ItemName="Glock w/ Torch"
      beltDescription="GLOCK+"
-	 bHasLaser=True
-	 TorchRadius=7
-	 TorchBrightness=70
 }

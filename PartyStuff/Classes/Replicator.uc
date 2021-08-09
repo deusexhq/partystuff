@@ -275,8 +275,8 @@ function LaserToggle()
 
 defaultproperties
 {
+     rstoredactor="NONE"
      GoverningSkill=Class'DeusEx.SkillWeaponPistol'
-     rStoredActor="NONE"
      NoiseLevel=0.010000
      ShotTime=0.150000
      reloadTime=1.500000
@@ -302,7 +302,7 @@ defaultproperties
      AltFireSound=Sound'DeusExSounds.Weapons.StealthPistolReloadEnd'
      CockingSound=Sound'DeusExSounds.Weapons.StealthPistolReload'
      SelectSound=Sound'DeusExSounds.Weapons.StealthPistolSelect'
-     InventoryGroup=131987
+     InventoryGroup=147
      ItemName="Replicator Gun"
      PlayerViewOffset=(X=24.000000,Y=-10.000000,Z=-14.000000)
      PlayerViewMesh=LodMesh'DeusExItems.StealthPistol'

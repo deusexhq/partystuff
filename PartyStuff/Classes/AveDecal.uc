@@ -23,6 +23,6 @@ function ReattachDecal(optional vector newrot)
 
 defaultproperties
 {
-    bAttached=True
-    bImportant=True
+     bAttached=True
+     bImportant=True
 }

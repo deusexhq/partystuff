@@ -36,24 +36,22 @@ function bool OtherRequirements()
 
 defaultproperties
 {
-	DispStr="Requires 7x Vial of Nanites, 1x Dragon's Tooth Sword to make Augrist"
-	Invresult=class'PartyStuff.WeaponAugrist'
-	NumNeeded=7
-    ItemName="Vial of Concentrated Nanites"
-    PlayerViewOffset=(X=30.00,Y=0.00,Z=-12.00),
-    PlayerViewMesh=LodMesh'DeusExItems.VialAmbrosia'
-    PickupViewMesh=LodMesh'DeusExItems.VialAmbrosia'
-    ThirdPersonMesh=LodMesh'DeusExItems.VialAmbrosia'
-    LandSound=Sound'DeusExSounds.Generic.GlassHit1'
-    Icon=Texture'BeltIconCraftingFlask'
-    largeIcon=Texture'DeusExUI.Icons.LargeIconVialAmbrosia'
-    largeIconWidth=18
-    largeIconHeight=44
-    beltDescription="NANITES"
-    Mesh=LodMesh'DeusExItems.BioCell'
-    MultiSkins(1)=Texture'wtf'
-    CollisionRadius=2.20
-    CollisionHeight=4.89
-    Mass=2.00
-    Buoyancy=4.00
+     InvResult=Class'PartyStuff.WeaponAugrist'
+     NumNeeded=7
+     DispStr="Requires 7x Vial of Nanites, 1x Dragon's Tooth Sword to make Augrist"
+     ItemName="Vial of Concentrated Nanites"
+     PlayerViewMesh=LodMesh'DeusExItems.VialAmbrosia'
+     PickupViewMesh=LodMesh'DeusExItems.VialAmbrosia'
+     ThirdPersonMesh=LodMesh'DeusExItems.VialAmbrosia'
+     Icon=Texture'PGAssets.Icons.BeltIconCraftingFlask'
+     largeIcon=Texture'DeusExUI.Icons.LargeIconVialAmbrosia'
+     largeIconWidth=18
+     largeIconHeight=44
+     beltDescription="NANITES"
+     Mesh=LodMesh'DeusExItems.BioCell'
+     MultiSkins(1)=Texture'PGAssets.Skins.wtf'
+     CollisionRadius=2.200000
+     CollisionHeight=4.890000
+     Mass=2.000000
+     Buoyancy=4.000000
 }

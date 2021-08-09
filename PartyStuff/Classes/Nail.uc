@@ -27,8 +27,8 @@ defaultproperties
      Damage=15.000000
      MomentumTransfer=10000
      ImpactSound=Sound'DeusExSounds.Generic.BulletHitFlesh'
-     Texture=Texture'NailTex4'
-     Skin=Texture'NailTex4'
+     Texture=Texture'PGAssets.Skins.NailTex4'
+     Skin=Texture'PGAssets.Skins.NailTex4'
      Mesh=LodMesh'DeusExItems.Dart'
      CollisionRadius=3.000000
      CollisionHeight=0.500000

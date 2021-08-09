@@ -60,8 +60,8 @@ defaultproperties
      ItemName="Dildo"
      Description="A strange, ancient triad weapon. You would be hard pressed finding out anything else about it."
      beltDescription="DILDO"
-     Skin=Texture'DildoTex1'
+     Skin=Texture'PGAssets.Skins.DildoTex1'
      Fatness=180
-     MultiSkins(0)=Texture'DildoTex1'
+     MultiSkins(0)=Texture'PGAssets.Skins.DildoTex1'
      Mass=20.000000
 }

@@ -19,5 +19,5 @@ function Timer(){
 
 defaultproperties
 {
-	bHidden=True
+     bHidden=True
 }
