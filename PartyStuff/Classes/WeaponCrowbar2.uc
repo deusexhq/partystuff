@@ -3,28 +3,12 @@
 //=============================================================================
 class WeaponCrowbar2 extends DeusExWeapon;
 
-enum EModeNum
-{
-	Mode_Normal,
-	Mode_Throw,
-};
-
-Var EModeNum Mode;
 var DeusExPlayer DXPl;
 
-replication
-{
-	Reliable if(Role==ROLE_AUTHORITY)
-		Mode;
-}
-
-simulated function PreBeginPlay()
-{
+simulated function PreBeginPlay(){
 	Super.PreBeginPlay();
 
-	// If this is a netgame, then override defaults
-	if ( Level.NetMode != NM_StandAlone )
-	{
+	if ( Level.NetMode != NM_StandAlone ){
 		HitDamage = mpHitDamage;
 		BaseAccuracy = mpBaseAccuracy;
 		ReloadTime = mpReloadTime;
@@ -33,43 +17,15 @@ simulated function PreBeginPlay()
 	}
 }
 
-Function Fire(Float value)
-{
-	local ThrownCrowbar S;
-	DXPL=DeusExPlayer(Owner);
-	If(Mode==Mode_Throw)
-	{
-		S=Spawn(class'ThrownCrowbar',Pawn(Owner),,Location+vect(0,0,-2),DXPL.ViewRotation);
-		if(S!=None)
-		{
-			S.SetOwner(DXPL);
-			S.Lifespan=15;
-		}
-		Destroy();
-	}
-	else
-	{
-		Super.Fire(Value);
-	}
-}
 
-Function cycleammo()
-{
-	switch Mode
-		{
-		case MODE_Normal:
-			Mode = MODE_Throw;
-			if (Role == ROLE_Authority)
-			Pawn(Owner).Clientmessage("Throwing mode");
-			break;
-
-		case MODE_Throw:
-			Mode = MODE_Normal;
-			if (Role == ROLE_Authority)
-			Pawn(Owner).Clientmessage("Normal mode");
-			break;
-			
-		}
+function cycleammo(){
+	local ThrownCrowbar thr;
+	thr = Spawn(class'ThrownCrowbar',Pawn(Owner),,Location+vect(0,0,-2),DeusExPlayer(Owner).ViewRotation);
+	if(thr!=None)	{
+		thr.SetOwner(DeusExPlayer(Owner));
+		thr.Lifespan=15;
+	}
+	Destroy();
 }
 
 defaultproperties
